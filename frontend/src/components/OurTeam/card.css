@@ -1,0 +1,256 @@
+@import "https://fonts.googleapis.com/css?family=Do+Hyeon";
+/* {
+  /* background-color:#202020; */
+/* margin: 0 10px; */
+/* background:#12280e; */
+/* background: radial-gradient(72% 16% at 50% 107%, #01590F -0.99%, #01590F -1.98%, rgb(0 0 0 / 0%) 100%), radial-gradient(72% 16% at 50% -4%, #01590F -0.99%, #01590F -0.98%, rgb(0 0 0 / 0%) 100%), radial-gradient(37% 45% at 116% 52%, #01590F -0.99%, #01590F -1.98%, rgb(0 0 0 / 0%) 100%), radial-gradient(41% 45% at -16% 47%, #01590F -0.99%, #01590F -0.98%, rgb(0 0 0) 100%); 
+ 
+} */
+
+.card__collection {
+  position: relative;
+  display: block;
+  /* background: rgba(10, 10, 10, 0.5); */
+  padding: 10px;
+  font-family: "Do Hyeon", sans-serif;
+  overflow: hidden;
+  background: radial-gradient(
+      60% 50% at 50% 110%,
+      #01590f -0.99%,
+      #01590f -1.98%,
+      rgb(0 0 0 / 0%) 100%
+    ),
+    radial-gradient(
+      60% 50% at 50% -10%,
+      #01590f -0.99%,
+      #01590f -0.98%,
+      rgb(0 0 0) 100%
+    );
+}
+
+.clear-fix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.card__collection {
+  padding-bottom: 3%;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background: rgba(10, 10, 10, 0.5); */
+  /* padding: 10px; */
+  align-items: center;
+  font-family: "Do Hyeon", sans-serif;
+  overflow: hidden;
+}
+
+.card__collection .cards {
+  background-position: center;
+  /* margin: 10px;  */
+  width: 15.6rem;
+  height: 20rem;
+  display: inline-block;
+  background-size: cover;
+  /* float: left; */
+  border-radius: 15px;
+  /* position: relative; Change this to relative */
+  overflow: hidden;
+  background-position: center;
+  margin: 2.5rem;
+}
+
+.card {
+  width: 300px;
+  margin: auto;
+  padding: 16px;
+}
+
+.card__collection .cards--two {
+  position: relative;
+  backface-visibility: hidden;
+  background-color: transparent;
+}
+.card__collection .cards--two p {
+  background-color: transparent;
+  position: absolute;
+  top: 80%;
+  left: -100%;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 20px;
+  z-index: 8;
+  transition: all 0.6s ease;
+}
+.card__collection .cards--two:hover p {
+  left: 5%;
+}
+.card__collection .cards--two:hover img {
+  transform: translateY(-15px);
+}
+.card__collection .cards--two:hover .cards--two__rect {
+  top: 75%;
+}
+.card__collection .cards--two:hover .cards--two__rect:before {
+  transform: translateY(15px);
+}
+.card__collection .cards--two:hover li {
+  transform: translateY(0);
+}
+/* .card__collection .cards--two:hover .cards--two__tri {
+  right: -40%;
+}
+.card__collection .cards--two:hover .cards--two__tri:before {
+  right: -312px;
+} */
+.card__collection .cards--two img {
+  transition: all 0.2s ease;
+}
+.card__collection .cards--two__tri {
+  background-color: transparent;
+  border-top: 174px solid transparent;
+  border-bottom: 135px solid transparent;
+  border-right: 206px solid #fff;
+  opacity: 0.9;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -123%;
+  transition: all 0.3s ease-in-out;
+}
+.card__collection .cards--two__tri:before {
+  background-color: transparent;
+  border-top: 220px solid transparent;
+  border-bottom: 190px solid transparent;
+  border-right: 288px solid #037316;
+  position: absolute;
+  content: "";
+  display: block;
+  top: -220px;
+  right: -612px;
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
+.card__collection .cards--two__rect {
+  background-color: transparent;
+  width: 750px;
+  height: 200px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 177%;
+  left: -100%;
+  transform: rotate(30deg);
+  z-index: 5;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+}
+.card__collection .cards--two__rect:before {
+  content: "";
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background: #01590f;
+  transform: translateY(200px);
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.1s;
+}
+.card__collection .cards--two ul {
+  background-color: transparent;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  bottom: -7px;
+  left: -5px;
+  z-index: 9;
+}
+.card__collection .cards--two ul li {
+  font-family: 'productSans';
+  background-color: transparent;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0.9rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(100px);
+}
+.card__collection .cards--two ul li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.card__collection .cards--two ul li:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.card__collection .cards--two ul li:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+.Team-lnkedin-img {
+  cursor: pointer;
+  bottom: 158px;
+  left: -20px;
+  width: 1.7rem;
+  position: absolute;
+  background-color: #037316;
+  top: 8px;
+}
+
+/* .card__collection .cards--two p{
+
+} */
+
+.cards__list li p {
+  /* top: 1%; */
+  bottom: 100%;
+}
+
+cards p {
+  display: block;
+  margin-block-start: -1em;
+  margin-block-end: 0em;
+  margin-inline-start: -1px;
+  margin-inline-end: -2px;
+}
+
+li p img {
+  margin-right: 13.4;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  border-top-width: 0px;
+  margin-left: 2px;
+}
+
+.team-names {
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 14px;
+}
+
+
+@media screen and (max-width: 778px) {
+  .card__collection {
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__collection {
+    padding-bottom: 7%;
+  }
+}

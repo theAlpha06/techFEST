@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+
+.underConstruction {
+  color: white;
+  text-align: center;
+  background: #082d0b;
+  background: -webkit-radial-gradient(center, #082d0b, #010101);
+  background: -moz-radial-gradient(center, #082d0b, #010101);
+  background: radial-gradient(ellipse at center, #082d0b, #010101);
+  height: calc(100vh - 4em);
+  width: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.underConstruction__bg {
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 45vw;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.underConstruction__content {
+  width: 90vw;
+  height: 80vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.underConstruction__reset-img {
+  width: 70px;
+}
+
+.underConstruction__title {
+    font-size: 3em;
+}
+.underConstruction__text {
+    font-size: 2em;
+}
+
+.underConstruction__para {
+  font-size: 1.3em;
+  margin: 0 0 1em 0;
+}
+
+
+.underConstruction__btn {
+  padding: 0.5em 2em;
+  border-radius: 7px;
+  background: linear-gradient(to right, green, rgb(17, 39, 7));
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+@media (max-width: 700px) {
+  .underConstruction__bg {
+    width: 60vw;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .underConstruction__bg {
+    width: 70vw;
+  }
+}

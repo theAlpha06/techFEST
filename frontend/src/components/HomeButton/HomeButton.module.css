@@ -1,0 +1,20 @@
+.backNavigate{
+    display: flex;
+
+}
+.back button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    /* margin-top: 15px; */
+    /* margin-left: 5px; */
+    cursor: pointer;
+    color: aliceblue;
+}
+.backNavigate span {
+    /* width: 40px; */
+    /* margin-top: 12px; */
+    margin-left: 10px;
+    cursor: pointer;
+    color: aliceblue;
+}

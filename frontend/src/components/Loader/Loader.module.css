@@ -1,0 +1,22 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.loader polygon {
+	stroke-dasharray: 17;
+	animation: anm-tr-3-move 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+}
+@keyframes anm-tr-3-move {
+	to {
+		stroke-dashoffset: 136;
+	}
+}

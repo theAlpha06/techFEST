@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  }
+.Date_horizontal{
+    position: fixed;
+    top: 3.6rem;
+    background-color: rgb(0, 0, 0,0);
+    text-align :center;
+    z-index: 100;
+    display: none;
+    width: 90%;
+    font-family: "productSans";
+    backdrop-filter: blur(3px);
+    letter-spacing: 1px;    
+}
+.Date_horizontal__text{
+    animation: move 10s linear infinite;
+    transform: translateX(100%);
+    font-size: 1rem;
+    color: rgb(134, 255, 20);
+    font-style: italic;
+    margin-top: .5rem;
+}
+
+@keyframes move {
+    to { transform: translateX(-100%); }
+  }
+@media screen and  (max-width: 650px){
+    .Date_horizontal{
+        display: block;
+    }
+    
+}

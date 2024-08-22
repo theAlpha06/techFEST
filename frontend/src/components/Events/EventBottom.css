@@ -1,0 +1,122 @@
+.bg_bottom {
+    background: linear-gradient(rgb(0, 35, 0), rgb(0, 15, 0), black);
+    height: auto;
+    width: 100%;
+}
+
+.fac_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dummyImg {
+    margin: 5vw 0 1vw 0;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.dummyImgSingle {
+    margin: 0 0 0 0;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.dummyImgDouble {
+    margin: 0 0 0 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.dmnCordintor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50vw !important;
+    height: auto;
+    flex-direction: row;
+    color: white;
+    margin: 3vw 0 6vw 0;
+}
+
+.dtlsOfCoor{
+    color: white;
+    text-align: center;
+    margin: 7px;
+}
+
+@media screen and (max-width: 1055px) {
+    .dummyImg {
+        height: 150px;
+        width: 150px;
+    }
+    .dummyImgSingle {
+        height: 140px;
+        width: 140px;
+    }
+    .dummyImgDouble {
+        height: 130px;
+        width: 130px;
+    }
+    .dmnCordintor {
+        width: 70vw !important;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .bg_bottom{
+        padding-bottom: 3%;
+    }
+    .dummyImg {
+        height: 140px;
+        width: 140px;
+        margin: 4vh 0 1vh 0;
+    }
+    .dummyImgSingle {
+        height: 130px;
+        width: 130px;
+    }
+    .dummyImgDouble {
+        height: 120px;
+        width: 120px;
+    }
+    .dmnCordintor {
+        width: 75vw !important;
+    }
+    .dtlsOfCoor {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bg_bottom{
+        padding-bottom: 5%;
+    }
+    .fac_Container {
+        font-size: 14px;
+    }
+    .dmnCordintor {
+        /* font-size: 14px; */
+        width: 85vw !important;
+        margin: 3vh 0 7vh 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bg_bottom{
+        padding-bottom: 7%;
+    }
+    .dummyImg {
+        height: 130px;
+        width: 130px;
+    }
+    .dummyImgDouble {
+        height: 110px;
+        width: 110px;
+    }
+}

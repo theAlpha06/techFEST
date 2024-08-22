@@ -1,0 +1,103 @@
+.home{
+    margin: 1em;
+}
+
+.headingHome{
+    width: auto;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em;
+    margin-bottom: 0em;
+}
+
+.descriptionHome{
+    width: auto;
+    text-align: center;
+    font-size: 0.75em;
+    margin: 0.5em;
+}
+
+.containerHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+
+.container1,.container2,.container3{
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: 10px;
+}
+.number{
+    width: auto;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0.5em;
+}
+
+.num-desc{
+    width: auto;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn_delete {
+    background-color: #c42c2c; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn_pending {
+    background-color: #aeb125; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.gYAELk{
+   margin-bottom: 0px !important;
+}
+.dApqnJ{
+    margin-bottom: 0px !important;   
+}
+.rdt_Table{
+    margin-bottom: 0px !important;
+}
+.rdt_TableBody{
+    margin-bottom: 0px !important;
+}
+.table_pagenation{
+    margin-bottom: 0px !important;
+}

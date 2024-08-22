@@ -1,0 +1,229 @@
+.background-of-EventsPage {
+    background-image: url(../Eventbackground.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-of-EventsPage::before {
+    position: absolute;
+    content: "";
+    opacity: 0.8;
+    background-image: linear-gradient(to bottom right, rgb(0, 82, 0), rgb(0, 20, 0), black);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.eventContainer {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    align-self: auto;
+}
+
+img.event_electrica {
+    z-index: 1;
+    width: 58vw;
+    margin-left: 55px;
+}
+
+.insideCntiner {
+    /* background-image: url(techFEST23kaT.webp); */
+    /* width: 70vw; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.techFestTCont {
+    position: absolute;
+    margin-top: 11vw;
+}
+
+.techFestT {
+    width: 50vw;
+    height: auto;
+}
+
+
+.whiteLine {
+    width: 17vw;
+    background: linear-gradient(rgb(248, 244, 244), rgb(212, 202, 202));
+    height: 5px;
+    margin: 0 0 4vh 0;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#exploreEvents {
+    padding: 8px 25px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(71, 67, 67), black);
+    /* background: transparent; */
+    color: white;
+    border: 1px solid grey;
+    font-size: large;
+    margin-bottom: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.insideCntiner p {
+    width: 30vw;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.events {
+    width: 100%;
+    background: linear-gradient(to left, rgb(0, 45, 0), rgb(0, 20, 0), black);
+}
+
+.evnts {
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    margin-left: 10vw;
+}
+
+.eventsBackgroundBottom {
+    background: linear-gradient(to left, rgb(0, 45, 0), rgb(0, 20, 0), black);
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+@media screen and (max-width: 1055px) {
+    .techFestTCont {
+        margin-top: 9vw;
+    }
+
+    .techFestT {
+        width: 70vw;
+        height: auto;
+    }
+
+
+
+    .whiteLine {
+        width: 20vw;
+        margin: 0 0 2vh 0;
+    }
+
+    .evnts {
+        font-size: 7vw;
+    }
+
+}
+
+
+@media screen and (max-width: 777px) {
+    .background-of-EventsPage {
+        height: 65vh;
+    }
+
+    .eventContainer {
+        height: 60vh;
+    }
+
+    .techFestTCont {
+        margin-top: 7vw;
+    }
+
+    .techFestT {
+        width: 70vw;
+        height: auto;
+    }
+
+    img.event_electrica {
+        width: 60vw;
+    }
+
+    .insideCntiner p {
+        width: 40vw;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .techFestTCont {
+        margin-top: 0;
+    }
+
+    .techFestT {
+        width: 90vw;
+        height: auto;
+    }
+
+    img.event_electrica {
+        width: 90vw;
+    }
+
+    .whiteLine {
+        width: 25vw;
+        height: 3px;
+    }
+
+    .insideCntiner p {
+        width: 60vw;
+    }
+
+    #exploreEvents {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .insideCntiner p {
+        width: 75vw;
+        font-size: 12px !important;
+    }
+
+    #exploreEvents {
+        padding: 7px 15px;
+    }
+
+    img.event_electrica {
+        margin-left: 30px;
+    }
+
+
+    .evnts {
+        font-size: 8vw;
+    }
+
+    .background-of-EventsPage {
+        height: 50vh;
+    }
+
+    .eventContainer {
+        height: 45vh;
+    }
+
+}
+
+@media screen and (max-width: 386px) {
+    .insideCntiner p {
+        width: auto;
+        text-align: center;
+        margin: 0 7px 0 7px;
+    }
+
+}

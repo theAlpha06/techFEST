@@ -1,0 +1,126 @@
+.Li_image_Container {
+  width: 60%;
+  height: 478px;
+  margin: 3rem auto 3rem auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.Li_image_ContainerImg {
+  width: 60%;
+}
+.Li_image_ContainerImg img {
+  width: 100%;
+  height: 100%;
+}
+.Li_ImageTexT {
+  padding-bottom: 8%;
+  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+}
+.Li_textWrap {
+  width: 80%;
+}
+.Li_imageDetail {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1100px) {
+  .Li_image_Container {
+    height: 400px;
+  }
+  .Li_image_ContainerImg {
+    width: 70%;
+  }
+  .Li_ImageTexT {
+    width: 70%;
+    padding-bottom: 15%;
+  }
+  .Li_textWrap {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .Li_image_Container {
+    width: 80%;
+    margin-bottom: 0;
+  }
+  .Li_ImageTexT {
+    width: 75%;
+  }
+  .Li_tagline {
+    font-size: 1rem;
+  }
+  .Li_imageHeading {
+    font-size: 23px;
+  }
+  .Li_imageDetail {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .Li_image_Container {
+    width: 80%;
+    height: auto;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  .Li_image_ContainerImg {
+    width: 75%;
+  }
+  .Li_ImageTexT {
+    padding-left: 0;
+    text-align: center;
+    width: 80%;
+  }
+  .Li_textWrap {
+    width: 100%;
+  }
+  .Li_imageHeading {
+    font-size: 32px;
+  }
+  .Li_imageDetail {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .Li_image_Container {
+    width: 95%;
+  }
+  .Li_ImageTexT {
+    padding-left: 0%;
+    width: 70%;
+    padding-bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .Li_image_Container {
+    margin-top: 3rem;
+  }
+  .Li_image_ContainerImg {
+    width: 90%;
+    margin-top: 5rem;
+  }
+  .Li_ImageTexT {
+    text-align: center;
+    width: 80%;
+  }
+  .Li_textWrap {
+    width: 100%;
+  }
+  .Li_imageHeading {
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,46 @@
+.PayBackground {
+    background: radial-gradient(ellipse at center, #082d0b, #010101);
+    width: 100%;
+    height: calc(100vh - 4em);
+  }
+  
+  .PayCont {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  
+  @media (max-width: 1100px) {
+      .card-payment {
+          width: 50vw;
+      } 
+  }
+  
+  @media (max-width: 888px) {
+      .card-payment {
+          width: 55vw;
+      } 
+  }
+  
+  @media (max-width: 700px) {
+      .card-payment {
+          width: 70vw;
+      } 
+  }
+  
+  @media (max-width: 600px) {
+      .card-payment {
+          width: 80vw;
+      } 
+  }
+  
+  @media (max-width: 500px) {
+      .card-payment {
+          width: 90vw;
+      } 
+      .card-details {
+          font-size: 1.1rem;
+      }
+  }

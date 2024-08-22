@@ -1,0 +1,245 @@
+.wholePage {
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.background-of-contactUsPage {
+  background-image: url(../background.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.background-of-contactUsPage::before {
+  position: absolute;
+  content: "";
+  opacity: 0.8;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 82, 0),
+    rgb(0, 20, 0),
+    black
+  );
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.faqs_container {
+  position: relative;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  /* min-width: 60vw; */
+}
+
+.faqs {
+  font-family: "productSansBold";
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 8vh 0 6vh 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.rowOfAccordion {
+  width: 70vw;
+  border-bottom: 2px solid white;
+  padding: 25px 30px;
+  margin: 20px 5px;
+  cursor: pointer;
+  /* transition: all .2s ease-out; */
+  /* background-color: rgb(0, 60, 0); */
+}
+
+.rowOfAccordion:hover {
+  /* transform: scale(1.1);  */
+  /* height: 70px ; */
+  /* background-color: rgb(22, 73, 22); */
+  background: transparent;
+}
+
+.arrowDown {
+  float: right;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.questionOfAccordion {
+  color: white;
+  padding-bottom: 5px;
+  /* position: absolute; */
+}
+
+.answerOfAccordion {
+  color: white;
+  /* position: relative; */
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.answerOfAccordion.show {
+  color: white;
+  /* height: auto; */
+  padding: 25px 0;
+  max-height: 999px;
+  transition: all 0.7s ease-out;
+}
+
+.Dial_In {
+  font-family: "productSansBold";
+  text-align: center;
+  color: white;
+  margin: 5vh 0 4vh 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.faqs_coordinators {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  padding: 15px;
+  margin: 10px;
+}
+
+.responsive_div {
+  display: flex;
+}
+
+.faqs_domain_coordinator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  color: white;
+}
+
+.faqs_domain_coordinator p {
+  text-align: center;
+}
+
+.dummy_img {
+  height: 135px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.faqs_number {
+  text-decoration: none;
+  color: white;
+}
+
+.faqs_support {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.faqs_footer {
+  color: white;
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: large;
+}
+
+.imgDiv {
+  background-image: linear-gradient(
+    to top right,
+    rgb(0, 72, 0),
+    rgb(0, 20, 0),
+    black
+  );
+  height: auto;
+  width: 100vw;
+  padding-bottom: 5vh;
+}
+
+.contactUsImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height: 85vh;
+}
+
+@media screen and (max-width: 777px) {
+  .contactUsImg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .faqs_domain_coordinator {
+    margin: 10px;
+  }
+  .dummy_img {
+    height: 110px;
+  }
+  .faqs_domain_coordinator p {
+    font-size: 15px;
+  }
+  .faqs_number {
+    font-size: 14px;
+  }
+  .contactUsImg {
+    /* height: 60vh; */
+    /* width: 50vh; */
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .questionOfAccordion {
+    font-size: 13px;
+  }
+  .answerOfAccordion {
+    font-size: 13px;
+  }
+  .rowOfAccordion {
+    padding: 25px 20px;
+    width: 75vw;
+  }
+  .faqs {
+    font-size: 25px;
+    padding: 6vh 0 4vh 0;
+  }
+  .Dial_In {
+    font-size: 22px;
+    margin: 4vh 0;
+  }
+  .faqs_domain_coordinator {
+    margin: 3vw 5vw;
+  }
+  .faqs_coordinators {
+    flex-direction: column;
+  }
+  .responsive_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .contactUsImg {
+    /* width: 45vh;
+        height: 50vh; */
+    width: 100%;
+    height: auto;
+    padding-bottom: 7vw;
+  }
+}

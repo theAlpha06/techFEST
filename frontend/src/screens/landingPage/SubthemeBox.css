@@ -1,0 +1,72 @@
+.SubThemeBox {
+  height: 13vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(to top right, black, rgb(9, 39, 17), rgb(5, 134, 5)); */
+  margin: 2vh -10vh;
+  color: white;
+  padding: 3vw 10px;
+  border: 2px solid rgb(5, 134, 5);
+  border-radius: 15px;
+  z-index: 1;
+  position: relative;
+  /* text-align: left; */
+
+  /* border-width: 2px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30; */
+}
+
+/* @media only screen and (max-width: 1445px) {
+  .SubThemeBox {
+    margin: 2vh -6vh;
+  }
+} */
+
+@media only screen and (max-width: 1100px) {
+  .SubThemeBox {
+    margin: 3vh -11vh;
+    width: 30vw;
+    height: 15vw;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .SubThemeBox {
+    margin: 3vh -9vh;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .SubThemeBox {
+    height: 30vw;
+    margin: 2vh -4vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .SubThemeBox {
+    width: 70vw;
+    padding: 5vh 2vh;
+    margin: -5.5vh;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .SubThemeBox {
+    margin: -6vh;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .SubThemeBox {
+    margin: -5vh;
+  }
+}
+
+@media only screen and (max-width: 322px) {
+  .SubThemeBox {
+    margin: -4vh;
+  }
+}

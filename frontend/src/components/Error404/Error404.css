@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.error404__body {
+  text-align: center;
+  color: white;
+  background: rgb(5, 79, 17);
+  background: #082d0b;
+  background: -webkit-radial-gradient(center, #082d0b, #010101);
+  background: -moz-radial-gradient(center, #082d0b, #010101);
+  background: radial-gradient(ellipse at center, #082d0b, #010101);
+  height: calc(100vh - 4em);
+  width: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error404__bg {
+  position: absolute;
+  opacity: 0.07;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 45vw;
+  z-index: -1;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.error404__title {
+  font-size: 3em;
+}
+
+.error404__text {
+  font-family: "productSans";
+  margin: 0 0 1em 0;
+}
+
+.error404__text > span {
+  font-family: "productSans";
+  font-size: 1.7em;
+}
+
+.error404__button {
+  padding: 0.5em 2em;
+  border-radius: 7px;
+  background: linear-gradient(to right, green, rgb(17, 39, 7));
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+@media (max-width: 700px) {
+  .error404__bg {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .error404__bg {
+    width: 70vw;
+  }
+}

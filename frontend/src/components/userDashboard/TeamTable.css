@@ -1,0 +1,89 @@
+.teamcont {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  width: 84vw;
+  padding: 40px;
+}
+
+.teamTable {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.teamaddBtn {
+  padding: 5px 25px;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.TableRow {
+  border-bottom: 1pt solid white;
+}
+.TableRow:last-child {
+  border-bottom: none;
+}
+
+.tableBorder:last-child {
+  border-bottom: 1pt solid white;
+}
+
+.removeMembBttn {
+  padding: 10px 0px 10px 30px;
+
+}
+
+.AddBttn {
+  font-size: 1.1rem;
+}
+
+.teamHeader {
+  padding: 0 0 20px 0;
+}
+
+.memberLi {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.verifiedTxt {
+  color: green;
+}
+
+.notVerifiedTxt{
+  color: red;
+}
+
+.teamDelIcon {
+  background: none;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.membDelIcon {
+  background: none;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 888px) {
+  .teamcont {
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 766px) {
+  .teamcont {
+    width: 90vw;
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.transactionwrapper {
+  width: 99.7vw;
+  height: 90.5vh;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-heading{
+    font-weight:800;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    font-family: "monumentExtended";
+    color: white;
+}
+
+.transactioncontainer {
+  font-size: 1.5rem;
+  width: 70wh;
+  height: 60vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: linear-gradient(
+    147deg,
+    rgba(5, 79, 17, 0.99) 1%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(5, 62, 15, 1) 117%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 50px;
+  color: white;
+  filter: drop-shadow(0 0 7px green);
+  /* background-color: white; */
+  /* border-color: white; */
+}
+
+.transaction-ammount {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: start; */
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-ammount-input {
+  width: 6rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+.transaction-data-ammount {
+  padding-right: 16px;
+  /* font-family: "monumentExtended"; */
+}
+
+.screenshot-input {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.inputelements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.transaction-btn {
+  width: 30%;
+  display: flex;
+  height: 33px;
+  font-size: 1rem;
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  position: relative;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(to right, green, rgb(41, 92, 17));
+}
+
+@media only screen and (max-width: 700px) {
+  /* Styles for mobile devices */
+
+  .transaction-btn {
+    width: 45%;
+  }
+
+  .transaction-data {
+    padding: 10px 0px;
+  }
+  .transactionwrapper {
+    height: 90vh;
+    padding: 50px 0;
+  }
+
+  .transactioncontainer {
+    width: 90vw;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .transaction-ammount {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .transaction-ammount-input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for medium screen devices */
+  /* .transactionwrapper {
+    height: 85vh;
+  } */
+
+  /* .transactioncontainer {
+    width: 60vw;
+    height: 50vh;
+  } */
+}

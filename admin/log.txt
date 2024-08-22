@@ -1,0 +1,1203 @@
+
+> project_syncfusion_dashboard@0.1.0 build
+> react-scripts build 2
+
+Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Failed to compile.
+
+src/API/api.js
+  Line 8:3:    Unnecessarily quoted property 'withCredentials' found  quote-props
+  Line 8:21:   Missing space before value for key 'withCredentials'   key-spacing
+  Line 11:5:   Strings must use singlequote                           quotes
+  Line 12:5:   Strings must use singlequote                           quotes
+  Line 12:36:  Strings must use singlequote                           quotes
+
+src/App.js
+  Line 7:8:    'Users' is defined but never used    no-unused-vars
+  Line 63:46:  Expected '===' and instead saw '=='  eqeqeq
+
+src/components/Button.jsx
+  Line 12:23:  Trailing spaces not allowed    no-trailing-spaces
+  Line 17:5:   Unexpected newline before '}'  react/jsx-curly-newline
+
+src/components/ChartsHeader.jsx
+  Line 3:25:  'category' is defined but never used  no-unused-vars
+  Line 3:35:  'title' is defined but never used     no-unused-vars
+
+src/components/Loader/Loader.jsx
+  Line 1:20:   Strings must use singlequote                                                                           quotes
+  Line 2:1:    `react` import should occur before import of `./Loader.module.css`                                     import/order
+  Line 2:19:   Strings must use singlequote                                                                           quotes
+  Line 4:22:   Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 6:10:   Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  Line 7:12:   Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  Line 9:11:   Empty components are self-closing                                                                      react/self-closing-comp
+  Line 12:13:  Unknown property 'stroke-width' found, use 'strokeWidth' instead                                       react/no-unknown-property
+  Line 14:12:  Closing tag of a multiline JSX expression must be on its own line                                      react/jsx-closing-tag-location
+
+src/components/Navbar.jsx
+  Line 3:10:   'MdKeyboardArrowDown' is defined but never used   no-unused-vars
+  Line 5:8:    'avatar' is defined but never used                no-unused-vars
+  Line 6:10:   'Button' is defined but never used                no-unused-vars
+  Line 6:18:   'UserProfile' is defined but never used           no-unused-vars
+  Line 27:38:  'handleClick' is assigned a value but never used  no-unused-vars
+  Line 27:51:  'isClicked' is assigned a value but never used    no-unused-vars
+
+src/components/Sidebar.jsx
+  Line 13:9:   'navigate' is assigned a value but never used      no-unused-vars
+  Line 25:38:  Expected '===' and instead saw '=='                eqeqeq
+  Line 56:29:  '?' should be placed at the beginning of the line  operator-linebreak
+  Line 62:11:  Bad line breaking before and after ':'             operator-linebreak
+
+src/components/Signin/Signin.jsx
+  Line 126:11:  A form label must be associated with a control  jsx-a11y/label-has-associated-control
+
+src/components/Signup/Signup.jsx
+  Line 1:33:    Strings must use singlequote                        quotes
+  Line 2:35:    Strings must use singlequote                        quotes
+  Line 3:19:    Strings must use singlequote                        quotes
+  Line 4:25:    Strings must use singlequote                        quotes
+  Line 5:20:    Strings must use singlequote                        quotes
+  Line 6:20:    Strings must use singlequote                        quotes
+  Line 9:36:    Strings must use singlequote                        quotes
+  Line 10:38:   Strings must use singlequote                        quotes
+  Line 11:44:   Strings must use singlequote                        quotes
+  Line 12:46:   Strings must use singlequote                        quotes
+  Line 13:38:   Strings must use singlequote                        quotes
+  Line 14:36:   Strings must use singlequote                        quotes
+  Line 15:40:   Strings must use singlequote                        quotes
+  Line 45:21:   Strings must use singlequote                        quotes
+  Line 55:33:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 56:36:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 57:32:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 60:19:   Strings must use singlequote                        quotes
+  Line 66:32:   Strings must use singlequote                        quotes
+  Line 67:18:   Strings must use singlequote                        quotes
+  Line 74:22:   Strings must use singlequote                        quotes
+  Line 92:33:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 93:36:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 94:32:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 95:37:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 96:33:   '||' should be placed at the beginning of the line  operator-linebreak
+  Line 99:19:   Strings must use singlequote                        quotes
+  Line 105:32:  Strings must use singlequote                        quotes
+  Line 106:18:  Strings must use singlequote                        quotes
+  Line 130:22:  Strings must use singlequote                        quotes
+  Line 137:19:  Strings must use singlequote                        quotes
+  Line 144:19:  Strings must use singlequote                        quotes
+  Line 160:17:  Strings must use singlequote                        quotes
+  Line 160:23:  A space is required after ','                       comma-spacing
+  Line 160:29:  Missing semicolon                                   semi
+  Line 168:20:  Strings must use singlequote                        quotes
+  Line 202:49:  Strings must use singlequote                        quotes
+  Line 203:51:  Strings must use singlequote                        quotes
+  Line 207:38:  Strings must use singlequote                        quotes
+  Line 207:55:  Strings must use singlequote                        quotes
+  Line 220:48:  Strings must use singlequote                        quotes
+  Line 223:31:  Strings must use singlequote                        quotes
+  Line 314:31:  Strings must use singlequote                        quotes
+  Line 331:33:  Strings must use singlequote                        quotes
+  Line 374:51:  Strings must use singlequote                        quotes
+  Line 375:15:  A form label must be associated with a control      jsx-a11y/label-has-associated-control
+  Line 388:15:  A form label must be associated with a control      jsx-a11y/label-has-associated-control
+  Line 391:46:  Strings must use singlequote                        quotes
+  Line 402:15:  A form label must be associated with a control      jsx-a11y/label-has-associated-control
+  Line 405:54:  Strings must use singlequote                        quotes
+  Line 414:15:  A form label must be associated with a control      jsx-a11y/label-has-associated-control
+  Line 417:53:  Strings must use singlequote                        quotes
+  Line 437:42:  Strings must use singlequote                        quotes
+  Line 438:26:  Curly braces are unnecessary here                   react/jsx-curly-brace-presence
+  Line 438:27:  Strings must use singlequote                        quotes
+
+src/components/UserProfile.jsx
+  Line 5:10:  'userProfileData' is defined but never used  no-unused-vars
+
+src/components/index.jsx
+  Line 7:1:  Dependency cycle detected  import/no-cycle
+
+src/contexts/Csv.js
+  Line 2:1:    Expected indentation of 2 spaces but found 4         indent
+  Line 4:1:    Expected indentation of 2 spaces but found 6         indent
+  Line 5:1:    Expected indentation of 2 spaces but found 6         indent
+  Line 6:1:    Expected indentation of 2 spaces but found 6         indent
+  Line 7:1:    Trailing spaces not allowed                          no-trailing-spaces
+  Line 8:1:    Expected indentation of 2 spaces but found 6         indent
+  Line 9:1:    Expected indentation of 2 spaces but found 6         indent
+  Line 10:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 11:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 12:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 12:21:  Expected parentheses around arrow function argument  arrow-parens
+  Line 13:1:   Expected indentation of 4 spaces but found 10        indent
+  Line 14:1:   Expected indentation of 4 spaces but found 10        indent
+  Line 14:24:  Expected parentheses around arrow function argument  arrow-parens
+  Line 15:1:   Expected indentation of 6 spaces but found 14        indent
+  Line 16:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 17:1:   Expected indentation of 6 spaces but found 14        indent
+  Line 18:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 19:1:   Expected indentation of 6 spaces but found 14        indent
+  Line 19:15:  Unary operator '++' used                             no-plusplus
+  Line 20:1:   Expected indentation of 4 spaces but found 10        indent
+  Line 21:1:   Expected indentation of 4 spaces but found 10        indent
+  Line 22:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 23:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 24:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 25:1:   Expected indentation of 0 spaces but found 2         indent
+  Line 26:34:  A space is required after ','                        comma-spacing
+  Line 27:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 29:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 30:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 31:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 32:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 33:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 34:1:   Expected indentation of 4 spaces but found 10        indent
+  Line 35:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 36:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 37:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 38:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 39:1:   Expected indentation of 2 spaces but found 6         indent
+  Line 40:1:   Expected indentation of 0 spaces but found 2         indent
+  Line 41:1:   Trailing spaces not allowed                          no-trailing-spaces
+  Line 41:3:   Newline required at end of file but not found        eol-last
+
+src/contexts/exportAsPDF.js
+  Line 4:25:   Operator '=' must be spaced                                  space-infix-ops
+  Line 4:31:   A space is required after ','                                comma-spacing
+  Line 4:40:   A space is required after ','                                comma-spacing
+  Line 4:46:   Missing space before =>                                      arrow-spacing
+  Line 4:49:   Missing space after =>                                       arrow-spacing
+  Line 5:1:    Expected indentation of 2 spaces but found 4                 indent
+  Line 5:18:   Strings must use singlequote                                 quotes
+  Line 6:1:    Expected indentation of 2 spaces but found 4                 indent
+  Line 6:18:   Strings must use singlequote                                 quotes
+  Line 7:1:    Expected indentation of 2 spaces but found 4                 indent
+  Line 7:25:   Strings must use singlequote                                 quotes
+  Line 8:1:    Expected indentation of 2 spaces but found 4                 indent
+  Line 8:14:   Operator '=' must be spaced                                  space-infix-ops
+  Line 8:19:   A constructor name should not start with a lowercase letter  new-cap
+  Line 9:1:    Expected indentation of 2 spaces but found 4                 indent
+  Line 10:1:   Expected indentation of 2 spaces but found 8                 indent
+  Line 10:13:  'content' is never reassigned. Use 'const' instead           prefer-const
+  Line 11:1:   Expected indentation of 4 spaces but found 6                 indent
+  Line 12:1:   Expected indentation of 4 spaces but found 6                 indent
+  Line 13:1:   Expected indentation of 4 spaces but found 6                 indent
+  Line 13:21:  Missing trailing comma                                       comma-dangle
+  Line 14:1:   Expected indentation of 2 spaces but found 4                 indent
+  Line 15:1:   Expected indentation of 2 spaces but found 4                 indent
+  Line 15:19:  A space is required after ','                                comma-spacing
+  Line 15:22:  A space is required after ','                                comma-spacing
+  Line 16:1:   Expected indentation of 2 spaces but found 4                 indent
+  Line 16:27:  Missing semicolon                                            semi
+  Line 17:1:   Expected indentation of 2 spaces but found 4                 indent
+  Line 18:1:   Expected indentation of 0 spaces but found 2                 indent
+  Line 18:4:   Missing semicolon                                            semi
+  Line 19:1:   Trailing spaces not allowed                                  no-trailing-spaces
+  Line 19:3:   Newline required at end of file but not found                eol-last
+
+src/data/dummy.js
+  Line 2:36:  A space is required before '}'      object-curly-spacing
+  Line 5:8:   'avatar' is defined but never used  no-unused-vars
+  Line 66:1:  More than 1 blank line not allowed  no-multiple-empty-lines
+
+src/pages/Domainadd.jsx
+  Line 1:44:    Strings must use singlequote                                                                           quotes
+  Line 2:8:     Strings must use singlequote                                                                           quotes
+  Line 3:19:    Strings must use singlequote                                                                           quotes
+  Line 4:25:    Strings must use singlequote                                                                           quotes
+  Line 24:9:    Unnecessary return statement                                                                           no-useless-return
+  Line 30:21:   Strings must use singlequote                                                                           quotes
+  Line 31:21:   Strings must use singlequote                                                                           quotes
+  Line 32:21:   Strings must use singlequote                                                                           quotes
+  Line 33:21:   Strings must use singlequote                                                                           quotes
+  Line 35:21:   Strings must use singlequote                                                                           quotes
+  Line 48:11:   A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 49:20:   Strings must use singlequote                                                                           quotes
+  Line 58:32:   Strings must use singlequote                                                                           quotes
+  Line 67:20:   Strings must use singlequote                                                                           quotes
+  Line 68:29:   Strings must use singlequote                                                                           quotes
+  Line 69:24:   Strings must use singlequote                                                                           quotes
+  Line 110:31:  Strings must use singlequote                                                                           quotes
+  Line 117:46:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 131:31:  Strings must use singlequote                                                                           quotes
+  Line 138:46:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+
+src/pages/Domains.jsx
+  Line 1:19:     Strings must use singlequote                                                            quotes
+  Line 2:16:     'useNavigate' is defined but never used                                                 no-unused-vars
+  Line 2:35:     Strings must use singlequote                                                            quotes
+  Line 3:8:      'Domainadd' is defined but never used                                                   no-unused-vars
+  Line 3:23:     Useless path segments for "../pages/Domainadd", should be "./Domainadd"                 import/no-useless-path-segments
+  Line 3:23:     Strings must use singlequote                                                            quotes
+  Line 4:1:      `react-data-table-component` import should occur before import of `../pages/Domainadd`  import/order
+  Line 4:40:     Strings must use singlequote                                                            quotes
+  Line 5:33:     Strings must use singlequote                                                            quotes
+  Line 6:29:     Strings must use singlequote                                                            quotes
+  Line 7:29:     Strings must use singlequote                                                            quotes
+  Line 12:17:    Strings must use singlequote                                                            quotes
+  Line 13:24:    Strings must use singlequote                                                            quotes
+  Line 14:21:    Strings must use singlequote                                                            quotes
+  Line 18:17:    Strings must use singlequote                                                            quotes
+  Line 19:24:    Strings must use singlequote                                                            quotes
+  Line 20:21:    Strings must use singlequote                                                            quotes
+  Line 24:17:    Strings must use singlequote                                                            quotes
+  Line 25:24:    Strings must use singlequote                                                            quotes
+  Line 26:21:    Strings must use singlequote                                                            quotes
+  Line 30:17:    Strings must use singlequote                                                            quotes
+  Line 31:24:    Strings must use singlequote                                                            quotes
+  Line 32:21:    Strings must use singlequote                                                            quotes
+  Line 36:17:    Strings must use singlequote                                                            quotes
+  Line 37:24:    Strings must use singlequote                                                            quotes
+  Line 38:21:    Strings must use singlequote                                                            quotes
+  Line 42:17:    Strings must use singlequote                                                            quotes
+  Line 43:24:    Strings must use singlequote                                                            quotes
+  Line 44:21:    Strings must use singlequote                                                            quotes
+  Line 48:17:    Strings must use singlequote                                                            quotes
+  Line 49:24:    Strings must use singlequote                                                            quotes
+  Line 50:21:    Strings must use singlequote                                                            quotes
+  Line 54:17:    Strings must use singlequote                                                            quotes
+  Line 55:24:    Strings must use singlequote                                                            quotes
+  Line 56:21:    Strings must use singlequote                                                            quotes
+  Line 60:17:    Strings must use singlequote                                                            quotes
+  Line 61:24:    Strings must use singlequote                                                            quotes
+  Line 62:21:    Strings must use singlequote                                                            quotes
+  Line 66:17:    Strings must use singlequote                                                            quotes
+  Line 67:24:    Strings must use singlequote                                                            quotes
+  Line 68:21:    Strings must use singlequote                                                            quotes
+  Line 72:17:    Strings must use singlequote                                                            quotes
+  Line 73:24:    Strings must use singlequote                                                            quotes
+  Line 74:21:    Strings must use singlequote                                                            quotes
+  Line 80:1:     Trailing spaces not allowed                                                             no-trailing-spaces
+  Line 93:13:    Strings must use singlequote                                                            quotes
+  Line 97:13:    Strings must use singlequote                                                            quotes
+  Line 101:13:   Strings must use singlequote                                                            quotes
+  Line 105:13:   Strings must use singlequote                                                            quotes
+  Line 109:21:   Strings must use singlequote                                                            quotes
+  Line 109:27:   Strings must use singlequote                                                            quotes
+  Line 109:40:   A space is required after ','                                                           comma-spacing
+  Line 109:41:   Strings must use singlequote                                                            quotes
+  Line 109:61:   A space is required after ','                                                           comma-spacing
+  Line 109:62:   Strings must use singlequote                                                            quotes
+  Line 110:30:   Missing space before =>                                                                 arrow-spacing
+  Line 110:30:   Expected parentheses around arrow function argument                                     arrow-parens
+  Line 110:59:   A space is required after ','                                                           comma-spacing
+  Line 110:81:   A space is required after ','                                                           comma-spacing
+  Line 111:1:    Trailing spaces not allowed                                                             no-trailing-spaces
+  Line 112:9:    'Export' is assigned a value but never used                                             no-unused-vars
+  Line 112:18:   Declare this component outside parent component "Domains" or memoize it                 react/no-unstable-nested-components
+  Line 112:36:   Missing an explicit type attribute for button                                           react/button-has-type
+  Line 112:53:   Expected parentheses around arrow function argument                                     arrow-parens
+  Line 113:43:   Missing an explicit type attribute for button                                           react/button-has-type
+  Line 113:58:   A space is required after '{'                                                           object-curly-spacing
+  Line 113:71:   Missing space before value for key 'marginRight'                                        key-spacing
+  Line 113:71:   Strings must use singlequote                                                            quotes
+  Line 113:77:   A space is required before '}'                                                          object-curly-spacing
+  Line 113:116:  A space is required after ','                                                           comma-spacing
+  Line 113:117:  Strings must use singlequote                                                            quotes
+  Line 114:44:   Missing an explicit type attribute for button                                           react/button-has-type
+  Line 114:86:   A space is required after ','                                                           comma-spacing
+  Line 114:91:   A space is required after ','                                                           comma-spacing
+  Line 114:92:   Strings must use singlequote                                                            quotes
+  Line 120:18:   Strings must use singlequote                                                            quotes
+  Line 121:22:   Strings must use singlequote                                                            quotes
+  Line 122:21:   Strings must use singlequote                                                            quotes
+  Line 123:19:   Strings must use singlequote                                                            quotes
+  Line 124:25:   Strings must use singlequote                                                            quotes
+  Line 132:18:   Strings must use singlequote                                                            quotes
+  Line 133:22:   Strings must use singlequote                                                            quotes
+  Line 134:21:   Strings must use singlequote                                                            quotes
+  Line 135:25:   Strings must use singlequote                                                            quotes
+  Line 142:18:   Strings must use singlequote                                                            quotes
+  Line 143:22:   Strings must use singlequote                                                            quotes
+  Line 144:21:   Strings must use singlequote                                                            quotes
+  Line 145:19:   Strings must use singlequote                                                            quotes
+  Line 150:36:   Expected '===' and instead saw '=='                                                     eqeqeq
+  Line 153:21:   Strings must use singlequote                                                            quotes
+  Line 154:19:   Strings must use singlequote                                                            quotes
+  Line 155:20:   Strings must use singlequote                                                            quotes
+  Line 156:19:   Strings must use singlequote                                                            quotes
+  Line 157:20:   Strings must use singlequote                                                            quotes
+  Line 158:25:   Strings must use singlequote                                                            quotes
+  Line 168:19:   Strings must use singlequote                                                            quotes
+  Line 169:20:   Strings must use singlequote                                                            quotes
+  Line 170:25:   Strings must use singlequote                                                            quotes
+  Line 171:23:   Strings must use singlequote                                                            quotes
+  Line 172:21:   Strings must use singlequote                                                            quotes
+  Line 175:20:   Property should be placed on a new line                                                 react/jsx-first-prop-new-line
+  Line 175:38:   Prop `data` must be placed on a new line                                                react/jsx-max-props-per-line
+  Line 175:83:   Trailing spaces not allowed                                                             no-trailing-spaces
+  Line 176:9:    Expected indentation of 10 space characters but found 8                                 react/jsx-indent-props
+  Line 178:1:    Expected indentation of 12 spaces but found 10                                          indent
+  Line 181:1:    Trailing spaces not allowed                                                             no-trailing-spaces
+
+src/pages/Eventadd.jsx
+  Line 1:15:    A space is required after '{'                                                                      object-curly-spacing
+  Line 1:24:    A space is required after ','                                                                      comma-spacing
+  Line 1:34:    A space is required before '}'                                                                     object-curly-spacing
+  Line 1:41:    Strings must use singlequote                                                                       quotes
+  Line 2:8:     Strings must use singlequote                                                                       quotes
+  Line 4:1:     Expected 1 empty line after import statement not followed by another import                        import/newline-after-import
+  Line 4:25:    Strings must use singlequote                                                                       quotes
+  Line 6:10:    'domainName' is assigned a value but never used                                                    no-unused-vars
+  Line 6:20:    A space is required after ','                                                                      comma-spacing
+  Line 6:47:    Strings must use singlequote                                                                       quotes
+  Line 7:19:    A space is required after ','                                                                      comma-spacing
+  Line 7:45:    Strings must use singlequote                                                                       quotes
+  Line 8:10:    'eventImg' is assigned a value but never used                                                      no-unused-vars
+  Line 8:18:    A space is required after ','                                                                      comma-spacing
+  Line 8:43:    Strings must use singlequote                                                                       quotes
+  Line 9:18:    A space is required after ','                                                                      comma-spacing
+  Line 9:43:    Strings must use singlequote                                                                       quotes
+  Line 10:10:   'eventCoor1' is assigned a value but never used                                                    no-unused-vars
+  Line 10:20:   A space is required after ','                                                                      comma-spacing
+  Line 10:47:   Strings must use singlequote                                                                       quotes
+  Line 11:10:   'eventCoor2' is assigned a value but never used                                                    no-unused-vars
+  Line 11:20:   A space is required after ','                                                                      comma-spacing
+  Line 11:47:   Strings must use singlequote                                                                       quotes
+  Line 12:14:   A space is required after ','                                                                      comma-spacing
+  Line 12:35:   Strings must use singlequote                                                                       quotes
+  Line 13:10:   'time' is assigned a value but never used                                                          no-unused-vars
+  Line 13:14:   A space is required after ','                                                                      comma-spacing
+  Line 13:35:   Strings must use singlequote                                                                       quotes
+  Line 14:10:   'venue' is assigned a value but never used                                                         no-unused-vars
+  Line 14:15:   A space is required after ','                                                                      comma-spacing
+  Line 14:37:   Strings must use singlequote                                                                       quotes
+  Line 15:3:    Expected space(s) after "const"                                                                    keyword-spacing
+  Line 15:21:   A space is required after ','                                                                      comma-spacing
+  Line 15:38:   Operator '=' must be spaced                                                                        space-infix-ops
+  Line 18:1:    Expected indentation of 6 spaces but found 4                                                       indent
+  Line 19:1:    Expected indentation of 6 spaces but found 4                                                       indent
+  Line 20:1:    Expected indentation of 8 spaces but found 6                                                       indent
+  Line 21:1:    Expected indentation of 8 spaces but found 6                                                       indent
+  Line 22:1:    Expected indentation of 8 spaces but found 2                                                       indent
+  Line 22:15:   Strings must use singlequote                                                                       quotes
+  Line 22:18:   A space is required after ','                                                                      comma-spacing
+  Line 23:1:    Expected indentation of 6 spaces but found 4                                                       indent
+  Line 24:1:    Expected indentation of 6 spaces but found 4                                                       indent
+  Line 25:1:    Expected indentation of 8 spaces but found 6                                                       indent
+  Line 26:1:    Expected indentation of 8 spaces but found 6                                                       indent
+  Line 26:7:    Unnecessary return statement                                                                       no-useless-return
+  Line 27:1:    Expected indentation of 6 spaces but found 4                                                       indent
+  Line 28:9:    Missing semicolon                                                                                  semi
+  Line 29:15:   Strings must use singlequote                                                                       quotes
+  Line 29:21:   A space is required after ','                                                                      comma-spacing
+  Line 30:1:    Trailing spaces not allowed                                                                        no-trailing-spaces
+  Line 31:21:   Missing space before =>                                                                            arrow-spacing
+  Line 31:24:   Missing space after =>                                                                             arrow-spacing
+  Line 33:7:    Expected property shorthand                                                                        object-shorthand
+  Line 33:17:   Missing space before value for key 'eventName'                                                     key-spacing
+  Line 34:24:   Missing space before value for key 'eventDescription'                                              key-spacing
+  Line 35:16:   Missing space before value for key 'domainId'                                                      key-spacing
+  Line 35:16:   Strings must use singlequote                                                                       quotes
+  Line 36:17:   Missing space before value for key 'startDate'                                                     key-spacing
+  Line 49:6:    Missing semicolon                                                                                  semi
+  Line 50:17:   Strings must use singlequote                                                                       quotes
+  Line 50:23:   A space is required after ','                                                                      comma-spacing
+  Line 50:30:   Missing semicolon                                                                                  semi
+  Line 57:1:    Expected indentation of 8 spaces but found 7                                                       indent
+  Line 57:20:   Strings must use singlequote                                                                       quotes
+  Line 57:26:   A space is required after ','                                                                      comma-spacing
+  Line 61:9:    Unnecessary return statement                                                                       no-useless-return
+  Line 63:4:    Missing semicolon                                                                                  semi
+  Line 67:9:    A form label must be associated with a control                                                     jsx-a11y/label-has-associated-control
+  Line 68:62:   Missing space before =>                                                                            arrow-spacing
+  Line 68:65:   Missing space after =>                                                                             arrow-spacing
+  Line 68:95:   A space is required before closing bracket                                                         react/jsx-tag-spacing
+  Line 70:9:    A form label must be associated with a control                                                     jsx-a11y/label-has-associated-control
+  Line 71:60:   Missing space before =>                                                                            arrow-spacing
+  Line 71:63:   Missing space after =>                                                                             arrow-spacing
+  Line 76:30:   Strings must use singlequote                                                                       quotes
+  Line 76:51:   Strings must use singlequote                                                                       quotes
+  Line 78:25:   Missing space before =>                                                                            arrow-spacing
+  Line 78:28:   Missing space after =>                                                                             arrow-spacing
+  Line 84:25:   Strings must use singlequote                                                                       quotes
+  Line 84:49:   Strings must use singlequote                                                                       quotes
+  Line 84:69:   Strings must use singlequote                                                                       quotes
+  Line 88:9:    Empty components are self-closing                                                                  react/self-closing-comp
+  Line 88:69:   Missing space before =>                                                                            arrow-spacing
+  Line 88:72:   Missing space after =>                                                                             arrow-spacing
+  Line 88:100:  A space is forbidden before closing bracket                                                        react/jsx-tag-spacing
+  Line 95:11:   Expected indentation of 12 space characters but found 10                                           react/jsx-indent
+  Line 97:17:   Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 97:21:   A space is required after '{'                                                                      object-curly-spacing
+  Line 97:29:   Missing space before value for key 'height'                                                        key-spacing
+  Line 97:29:   Strings must use singlequote                                                                       quotes
+  Line 97:35:   A space is required before '}'                                                                     object-curly-spacing
+  Line 98:17:   Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 100:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 100:22:  Unexpected usage of singlequote                                                                    jsx-quotes
+  Line 102:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 103:15:  The closing bracket must be aligned with the line containing the opening tag (expected column 11)  react/jsx-closing-bracket-location
+  Line 104:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent
+  Line 104:41:  Missing space before =>                                                                            arrow-spacing
+  Line 105:1:   Expected indentation of 16 spaces but found 18                                                     indent
+  Line 105:19:  Opening curly brace does not appear on the same line as controlling statement                      brace-style
+  Line 106:1:   Expected indentation of 18 spaces but found 20                                                     indent
+  Line 106:38:  Missing semicolon                                                                                  semi
+  Line 107:1:   Expected indentation of 18 spaces but found 20                                                     indent
+  Line 107:52:  A space is forbidden before closing bracket                                                        react/jsx-tag-spacing
+  Line 107:85:  Missing semicolon                                                                                  semi
+  Line 108:1:   Expected indentation of 16 spaces but found 18                                                     indent
+  Line 108:20:  Missing trailing comma                                                                             comma-dangle
+  Line 109:17:  Unexpected newline before ')'                                                                      function-paren-newline
+  Line 110:17:  Expected closing tag to match indentation of opening                                               react/jsx-closing-tag-location
+  Line 110:17:  Expected indentation of 10 space characters but found 16                                           react/jsx-indent
+  Line 111:1:   Trailing spaces not allowed                                                                        no-trailing-spaces
+  Line 118:11:  Expected indentation of 12 space characters but found 10                                           react/jsx-indent
+  Line 120:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 120:21:  A space is required after '{'                                                                      object-curly-spacing
+  Line 120:29:  Missing space before value for key 'height'                                                        key-spacing
+  Line 120:29:  Strings must use singlequote                                                                       quotes
+  Line 120:35:  A space is required before '}'                                                                     object-curly-spacing
+  Line 121:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 123:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 123:22:  Unexpected usage of singlequote                                                                    jsx-quotes
+  Line 125:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent-props
+  Line 126:15:  The closing bracket must be aligned with the line containing the opening tag (expected column 11)  react/jsx-closing-bracket-location
+  Line 127:17:  Expected indentation of 12 space characters but found 16                                           react/jsx-indent
+  Line 127:41:  Missing space before =>                                                                            arrow-spacing
+  Line 128:1:   Expected indentation of 16 spaces but found 18                                                     indent
+  Line 128:19:  Opening curly brace does not appear on the same line as controlling statement                      brace-style
+  Line 129:1:   Expected indentation of 18 spaces but found 20                                                     indent
+  Line 129:38:  Missing semicolon                                                                                  semi
+  Line 130:1:   Expected indentation of 18 spaces but found 20                                                     indent
+  Line 130:52:  A space is forbidden before closing bracket                                                        react/jsx-tag-spacing
+  Line 130:85:  Missing semicolon                                                                                  semi
+  Line 131:1:   Expected indentation of 16 spaces but found 18                                                     indent
+  Line 131:20:  Missing trailing comma                                                                             comma-dangle
+  Line 132:17:  Unexpected newline before ')'                                                                      function-paren-newline
+  Line 133:17:  Expected closing tag to match indentation of opening                                               react/jsx-closing-tag-location
+  Line 133:17:  Expected indentation of 10 space characters but found 16                                           react/jsx-indent
+  Line 134:1:   Trailing spaces not allowed                                                                        no-trailing-spaces
+  Line 139:11:  Empty components are self-closing                                                                  react/self-closing-comp
+  Line 141:36:  Strings must use singlequote                                                                       quotes
+  Line 142:12:  Closing tag of a multiline JSX expression must be on its own line                                  react/jsx-closing-tag-location
+  Line 145:15:  A form label must be associated with a control                                                     jsx-a11y/label-has-associated-control
+  Line 146:67:  Missing space before =>                                                                            arrow-spacing
+  Line 146:70:  Missing space after =>                                                                             arrow-spacing
+  Line 146:94:  Multiple spaces found before '/'                                                                   no-multi-spaces
+  Line 150:15:  A form label must be associated with a control                                                     jsx-a11y/label-has-associated-control
+  Line 151:67:  Missing space before =>                                                                            arrow-spacing
+  Line 151:70:  Missing space after =>                                                                             arrow-spacing
+  Line 155:15:  A form label must be associated with a control                                                     jsx-a11y/label-has-associated-control
+  Line 156:57:  Missing space before =>                                                                            arrow-spacing
+  Line 156:60:  Missing space after =>                                                                             arrow-spacing
+
+src/pages/Events.jsx
+  Line 1:13:     A space is required after ','                                                                                      comma-spacing
+  Line 1:14:     A space is required after '{'                                                                                      object-curly-spacing
+  Line 1:15:     'useEffect' is defined but never used                                                                              no-unused-vars
+  Line 1:26:     'useState' is defined but never used                                                                               no-unused-vars
+  Line 1:34:     A space is required before '}'                                                                                     object-curly-spacing
+  Line 1:48:     Missing semicolon                                                                                                  semi
+  Line 2:22:     Strings must use singlequote                                                                                       quotes
+  Line 4:8:      'Eventadd' is defined but never used                                                                               no-unused-vars
+  Line 4:22:     Useless path segments for "../pages/Eventadd", should be "./Eventadd"                                              import/no-useless-path-segments
+  Line 5:10:     'baseUrl' is defined but never used                                                                                no-unused-vars
+  Line 5:25:     Strings must use singlequote                                                                                       quotes
+  Line 14:1:     Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 29:17:    Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 33:17:    Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 37:17:    Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 41:17:    Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 45:17:    Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 55:30:    Missing trailing comma                                                                                             comma-dangle
+  Line 63:30:    Missing trailing comma                                                                                             comma-dangle
+  Line 66:4:     Missing semicolon                                                                                                  semi
+  Line 71:12:    Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 71:32:    Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 72:9:     Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 72:9:     Strings must use singlequote                                                                                       quotes
+  Line 72:18:    Strings must use singlequote                                                                                       quotes
+  Line 73:9:     Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 73:9:     Strings must use singlequote                                                                                       quotes
+  Line 73:22:    Strings must use singlequote                                                                                       quotes
+  Line 74:9:     Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 74:9:     Strings must use singlequote                                                                                       quotes
+  Line 74:21:    Strings must use singlequote                                                                                       quotes
+  Line 75:9:     Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 75:9:     Strings must use singlequote                                                                                       quotes
+  Line 75:19:    Strings must use singlequote                                                                                       quotes
+  Line 76:9:     Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 76:9:     Strings must use singlequote                                                                                       quotes
+  Line 76:25:    Strings must use singlequote                                                                                       quotes
+  Line 76:30:    Missing trailing comma                                                                                             comma-dangle
+  Line 77:9:     The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 77:31:    Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 78:12:    Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 78:36:    Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 79:9:     Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 79:9:     Strings must use singlequote                                                                                       quotes
+  Line 79:18:    Strings must use singlequote                                                                                       quotes
+  Line 80:9:     Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 80:9:     Strings must use singlequote                                                                                       quotes
+  Line 80:22:    Strings must use singlequote                                                                                       quotes
+  Line 81:9:     Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 81:9:     Strings must use singlequote                                                                                       quotes
+  Line 81:21:    Strings must use singlequote                                                                                       quotes
+  Line 82:9:     Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 82:9:     Strings must use singlequote                                                                                       quotes
+  Line 82:25:    Strings must use singlequote                                                                                       quotes
+  Line 82:32:    Missing trailing comma                                                                                             comma-dangle
+  Line 83:9:     The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 83:35:    Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 84:12:    Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 84:34:    Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 85:9:     Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 85:9:     Strings must use singlequote                                                                                       quotes
+  Line 85:18:    Strings must use singlequote                                                                                       quotes
+  Line 86:9:     Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 86:9:     Strings must use singlequote                                                                                       quotes
+  Line 86:22:    Strings must use singlequote                                                                                       quotes
+  Line 87:9:     Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 87:9:     Strings must use singlequote                                                                                       quotes
+  Line 87:21:    Strings must use singlequote                                                                                       quotes
+  Line 88:9:     Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 88:9:     Strings must use singlequote                                                                                       quotes
+  Line 88:19:    Strings must use singlequote                                                                                       quotes
+  Line 88:26:    Missing trailing comma                                                                                             comma-dangle
+  Line 89:9:     The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 91:19:    A space is required after '{'                                                                                      object-curly-spacing
+  Line 91:20:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 91:20:    Strings must use singlequote                                                                                       quotes
+  Line 91:32:    Strings must use singlequote                                                                                       quotes
+  Line 91:38:    A space is required after ','                                                                                      comma-spacing
+  Line 91:39:    Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 91:39:    Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 91:39:    Strings must use singlequote                                                                                       quotes
+  Line 91:48:    Missing space before value for key 'border'                                                                        key-spacing
+  Line 91:48:    Strings must use singlequote                                                                                       quotes
+  Line 91:66:    Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 91:66:    Unnecessarily quoted property 'display' found                                                                      quote-props
+  Line 91:66:    Strings must use singlequote                                                                                       quotes
+  Line 91:77:    Strings must use singlequote                                                                                       quotes
+  Line 92:1:     Expected indentation of 8 spaces but found 4                                                                       indent
+  Line 92:5:     Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 92:5:     Strings must use singlequote                                                                                       quotes
+  Line 92:15:    Strings must use singlequote                                                                                       quotes
+  Line 92:25:    Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 92:25:    Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 92:25:    Strings must use singlequote                                                                                       quotes
+  Line 92:35:    Missing space before value for key 'padding'                                                                       key-spacing
+  Line 92:35:    Strings must use singlequote                                                                                       quotes
+  Line 92:40:    A space is required after ','                                                                                      comma-spacing
+  Line 92:41:    Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 92:41:    Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 92:41:    Strings must use singlequote                                                                                       quotes
+  Line 92:56:    Missing space before value for key 'borderRadius'                                                                  key-spacing
+  Line 92:56:    Strings must use singlequote                                                                                       quotes
+  Line 92:61:    A space is required before '}'                                                                                     object-curly-spacing
+  Line 92:63:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 93:5:     Expected indentation of 6 space characters but found 4                                                             react/jsx-indent
+  Line 93:27:    Expected indentation of 6 space characters but found 9                                                             react/jsx-indent
+  Line 96:1:     Expected closing tag to match indentation of opening                                                               react/jsx-closing-tag-location
+  Line 96:1:     Expected indentation of 4 space characters but found 0                                                             react/jsx-indent
+  Line 96:8:     Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 97:21:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 97:21:    Strings must use singlequote                                                                                       quotes
+  Line 97:31:    Strings must use singlequote                                                                                       quotes
+  Line 98:9:     A form label must be associated with a control                                                                     jsx-a11y/label-has-associated-control
+  Line 98:16:    Unknown property 'for' found, use 'htmlFor' instead                                                                react/no-unknown-property
+  Line 107:21:   Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 107:21:   Strings must use singlequote                                                                                       quotes
+  Line 107:31:   Strings must use singlequote                                                                                       quotes
+  Line 107:50:   Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 107:50:   Strings must use singlequote                                                                                       quotes
+  Line 107:61:   Strings must use singlequote                                                                                       quotes
+  Line 107:70:   Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 107:70:   Strings must use singlequote                                                                                       quotes
+  Line 107:94:   Unnecessarily quoted property 'background' found                                                                   quote-props
+  Line 107:94:   Strings must use singlequote                                                                                       quotes
+  Line 107:108:  Strings must use singlequote                                                                                       quotes
+  Line 118:4:    Missing semicolon                                                                                                  semi
+  Line 119:2:    Missing semicolon                                                                                                  semi
+  Line 121:22:   Newline required at end of file but not found                                                                      eol-last
+  Line 121:22:   Missing semicolon                                                                                                  semi
+
+src/pages/Home.jsx
+  Line 1:44:     Strings must use singlequote                                                                                                                             quotes
+  Line 2:19:     A space is required after '{'                                                                                                                            object-curly-spacing
+  Line 2:31:     A space is required before '}'                                                                                                                           object-curly-spacing
+  Line 2:38:     Strings must use singlequote                                                                                                                             quotes
+  Line 3:10:     'BsCurrencyDollar' is defined but never used                                                                                                             no-unused-vars
+  Line 3:34:     Strings must use singlequote                                                                                                                             quotes
+  Line 4:10:     'GoPrimitiveDot' is defined but never used                                                                                                               no-unused-vars
+  Line 4:32:     Strings must use singlequote                                                                                                                             quotes
+  Line 5:10:     'IoIosMore' is defined but never used                                                                                                                    no-unused-vars
+  Line 5:27:     Strings must use singlequote                                                                                                                             quotes
+  Line 6:10:     'DropDownListComponent' is defined but never used                                                                                                        no-unused-vars
+  Line 6:39:     Strings must use singlequote                                                                                                                             quotes
+  Line 7:39:     Strings must use singlequote                                                                                                                             quotes
+  Line 8:8:      Strings must use singlequote                                                                                                                             quotes
+  Line 9:8:      Strings must use singlequote                                                                                                                             quotes
+  Line 10:19:    Strings must use singlequote                                                                                                                             quotes
+  Line 11:25:    Strings must use singlequote                                                                                                                             quotes
+  Line 12:20:    Strings must use singlequote                                                                                                                             quotes
+  Line 13:8:     A space is required after '{'                                                                                                                            object-curly-spacing
+  Line 13:24:    A space is required before '}'                                                                                                                           object-curly-spacing
+  Line 13:63:    Missing semicolon                                                                                                                                        semi
+  Line 25:15:    'props' is defined but never used                                                                                                                        no-unused-vars
+  Line 50:26:    Unexpected string concatenation                                                                                                                          prefer-template
+  Line 50:26:    Strings must use singlequote                                                                                                                             quotes
+  Line 104:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 108:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 112:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 116:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 120:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 125:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 130:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 131:17:   Declare this component outside parent component "Home" or memoize it. If you want to allow component creation in props, set allowAsProps option to true  react/no-unstable-nested-components
+  Line 132:39:   Strings must use singlequote                                                                                                                             quotes
+  Line 134:13:   Missing an explicit type attribute for button                                                                                                            react/button-has-type
+  Line 134:59:   Strings must use singlequote                                                                                                                             quotes
+  Line 134:82:   Expected indentation of 14 space characters but found 10                                                                                                 react/jsx-indent
+  Line 136:9:    Expected closing tag to match indentation of opening                                                                                                     react/jsx-closing-tag-location
+  Line 136:9:    Expected indentation of 12 space characters but found 8                                                                                                  react/jsx-indent
+  Line 137:12:   Missing semicolon                                                                                                                                        semi
+  Line 138:16:   Unnecessary 'else' after 'return'                                                                                                                        no-else-return
+  Line 140:13:   Missing an explicit type attribute for button                                                                                                            react/button-has-type
+  Line 140:102:  Expected indentation of 14 space characters but found 10                                                                                                 react/jsx-indent
+  Line 142:9:    Expected closing tag to match indentation of opening                                                                                                     react/jsx-closing-tag-location
+  Line 142:9:    Expected indentation of 12 space characters but found 8                                                                                                  react/jsx-indent
+  Line 143:12:   Missing semicolon                                                                                                                                        semi
+  Line 144:10:   Requires a space before '}'                                                                                                                              block-spacing
+  Line 144:10:   Closing curly brace should be on the same line as opening curly brace or on the line after the previous block                                            brace-style
+  Line 148:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 152:13:   Strings must use singlequote                                                                                                                             quotes
+  Line 153:13:   Declare this component outside parent component "Home" or memoize it. If you want to allow component creation in props, set allowAsProps option to true  react/no-unstable-nested-components
+  Line 154:9:    Missing an explicit type attribute for button                                                                                                            react/button-has-type
+  Line 165:27:   Array.prototype.map() expects a return value from arrow function                                                                                         array-callback-return
+  Line 220:18:   Strings must use singlequote                                                                                                                             quotes
+  Line 221:22:   Strings must use singlequote                                                                                                                             quotes
+  Line 222:21:   Strings must use singlequote                                                                                                                             quotes
+  Line 223:19:   Strings must use singlequote                                                                                                                             quotes
+  Line 230:19:   Strings must use singlequote                                                                                                                             quotes
+  Line 231:20:   Strings must use singlequote                                                                                                                             quotes
+  Line 232:25:   Strings must use singlequote                                                                                                                             quotes
+  Line 233:23:   Strings must use singlequote                                                                                                                             quotes
+
+src/pages/Sponseradd.jsx
+  Line 1:26:   Missing semicolon                                                                                      semi
+  Line 2:26:   Missing semicolon                                                                                      semi
+  Line 4:26:   Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 5:1:    Expected indentation of 2 spaces but found 4                                                           indent
+  Line 6:9:    Expected indentation of 6 space characters but found 8                                                 react/jsx-indent
+  Line 6:24:   Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 7:26:   Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 8:13:   A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 9:13:   A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 13:34:  Strings must use singlequote                                                                           quotes
+  Line 20:1:   Trailing spaces not allowed                                                                            no-trailing-spaces
+  Line 25:32:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 26:19:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 28:32:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 29:19:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 31:32:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 32:19:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 36:9:   Expected closing tag to match indentation of opening                                                   react/jsx-closing-tag-location
+  Line 36:9:   Expected indentation of 10 space characters but found 8                                                react/jsx-indent
+  Line 37:43:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 39:1:   Expected indentation of 2 spaces but found 6                                                           indent
+  Line 39:8:   Missing semicolon                                                                                      semi
+  Line 40:1:   Expected indentation of 0 spaces but found 4                                                           indent
+  Line 40:6:   Missing semicolon                                                                                      semi
+  Line 41:1:   Trailing spaces not allowed                                                                            no-trailing-spaces
+  Line 42:26:  Newline required at end of file but not found                                                          eol-last
+  Line 42:26:  Missing semicolon                                                                                      semi
+
+src/pages/Sponsers.jsx
+  Line 1:26:    Missing semicolon                                                                                                  semi
+  Line 2:16:    'useNavigate' is defined but never used                                                                            no-unused-vars
+  Line 2:35:    Strings must use singlequote                                                                                       quotes
+  Line 3:8:     'Workshopadd' is defined but never used                                                                            no-unused-vars
+  Line 3:25:    Useless path segments for "../pages/Workshopadd", should be "./Workshopadd"                                        import/no-useless-path-segments
+  Line 3:47:    Missing semicolon                                                                                                  semi
+  Line 4:1:     `react-data-table-component` import should occur before import of `../pages/Workshopadd`                           import/order
+  Line 4:18:    There should be no space before ','                                                                                comma-spacing
+  Line 16:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 17:1:    More than 1 blank line not allowed                                                                                 no-multiple-empty-lines
+  Line 21:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 22:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 24:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 25:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 25:19:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 28:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 29:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 29:19:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 31:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 32:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 33:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 33:15:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 34:1:    Expected indentation of 4 spaces but found 0                                                                       indent
+  Line 35:1:    Expected indentation of 2 spaces but found 0                                                                       indent
+  Line 37:1:    Expected indentation of 2 spaces but found 0                                                                       indent
+  Line 38:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 42:20:   Extra space after key 'contactPerson'                                                                              key-spacing
+  Line 42:31:   Missing trailing comma                                                                                             comma-dangle
+  Line 43:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 44:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 45:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 46:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 49:20:   Extra space after key 'contactPerson'                                                                              key-spacing
+  Line 49:31:   Missing trailing comma                                                                                             comma-dangle
+  Line 50:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 51:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 51:1:    More than 1 blank line not allowed                                                                                 no-multiple-empty-lines
+  Line 52:1:    Expected indentation of 4 spaces but found 0                                                                       indent
+  Line 53:1:    Expected indentation of 2 spaces but found 0                                                                       indent
+  Line 53:2:    Missing semicolon                                                                                                  semi
+  Line 57:5:    Expected indentation of 6 space characters but found 4                                                             react/jsx-indent
+  Line 57:10:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 57:30:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 58:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 58:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 58:9:    Strings must use singlequote                                                                                       quotes
+  Line 58:18:   Strings must use singlequote                                                                                       quotes
+  Line 59:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 59:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 59:9:    Strings must use singlequote                                                                                       quotes
+  Line 59:22:   Strings must use singlequote                                                                                       quotes
+  Line 60:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 60:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 60:9:    Strings must use singlequote                                                                                       quotes
+  Line 60:21:   Strings must use singlequote                                                                                       quotes
+  Line 61:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 61:9:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 61:9:    Strings must use singlequote                                                                                       quotes
+  Line 61:19:   Strings must use singlequote                                                                                       quotes
+  Line 62:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 62:9:    Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 62:9:    Strings must use singlequote                                                                                       quotes
+  Line 62:25:   Strings must use singlequote                                                                                       quotes
+  Line 62:30:   Missing trailing comma                                                                                             comma-dangle
+  Line 63:1:    Expected indentation of 4 spaces but found 6                                                                       indent
+  Line 63:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 5 on the next line)  react/jsx-closing-bracket-location
+  Line 63:31:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 64:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 64:36:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 65:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 65:9:    Strings must use singlequote                                                                                       quotes
+  Line 65:18:   Strings must use singlequote                                                                                       quotes
+  Line 66:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 66:9:    Strings must use singlequote                                                                                       quotes
+  Line 66:22:   Strings must use singlequote                                                                                       quotes
+  Line 67:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 67:9:    Strings must use singlequote                                                                                       quotes
+  Line 67:21:   Strings must use singlequote                                                                                       quotes
+  Line 68:9:    Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 68:9:    Strings must use singlequote                                                                                       quotes
+  Line 68:24:   Missing space before value for key 'marginBottom'                                                                  key-spacing
+  Line 68:24:   Strings must use singlequote                                                                                       quotes
+  Line 68:31:   Missing trailing comma                                                                                             comma-dangle
+  Line 69:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 69:35:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 70:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 70:22:   Unexpected usage of singlequote                                                                                    jsx-quotes
+  Line 70:34:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 71:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 71:9:    Strings must use singlequote                                                                                       quotes
+  Line 71:18:   Strings must use singlequote                                                                                       quotes
+  Line 72:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 72:9:    Strings must use singlequote                                                                                       quotes
+  Line 72:22:   Strings must use singlequote                                                                                       quotes
+  Line 73:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 73:9:    Strings must use singlequote                                                                                       quotes
+  Line 73:21:   Strings must use singlequote                                                                                       quotes
+  Line 74:9:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 74:9:    Strings must use singlequote                                                                                       quotes
+  Line 74:18:   Missing space before value for key 'margin'                                                                        key-spacing
+  Line 74:18:   Strings must use singlequote                                                                                       quotes
+  Line 74:25:   Missing trailing comma                                                                                             comma-dangle
+  Line 75:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 75:18:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 76:19:   A space is required after '{'                                                                                      object-curly-spacing
+  Line 76:20:   Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 76:20:   Strings must use singlequote                                                                                       quotes
+  Line 76:32:   Strings must use singlequote                                                                                       quotes
+  Line 76:38:   A space is required after ','                                                                                      comma-spacing
+  Line 76:39:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 76:39:   Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 76:39:   Strings must use singlequote                                                                                       quotes
+  Line 76:48:   Missing space before value for key 'border'                                                                        key-spacing
+  Line 76:48:   Strings must use singlequote                                                                                       quotes
+  Line 76:66:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 76:66:   Unnecessarily quoted property 'display' found                                                                      quote-props
+  Line 76:66:   Strings must use singlequote                                                                                       quotes
+  Line 76:77:   Strings must use singlequote                                                                                       quotes
+  Line 77:1:    Expected indentation of 8 spaces but found 4                                                                       indent
+  Line 77:5:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 77:5:    Strings must use singlequote                                                                                       quotes
+  Line 77:15:   Strings must use singlequote                                                                                       quotes
+  Line 77:27:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 77:27:   Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 77:27:   Strings must use singlequote                                                                                       quotes
+  Line 77:37:   Missing space before value for key 'padding'                                                                       key-spacing
+  Line 77:37:   Strings must use singlequote                                                                                       quotes
+  Line 77:42:   A space is required after ','                                                                                      comma-spacing
+  Line 77:43:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 77:43:   Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 77:43:   Strings must use singlequote                                                                                       quotes
+  Line 77:58:   Missing space before value for key 'borderRadius'                                                                  key-spacing
+  Line 77:58:   Strings must use singlequote                                                                                       quotes
+  Line 77:63:   A space is required before '}'                                                                                     object-curly-spacing
+  Line 77:65:   The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 78:5:    Expected indentation of 6 space characters but found 4                                                             react/jsx-indent
+  Line 78:27:   Expected indentation of 6 space characters but found 9                                                             react/jsx-indent
+  Line 81:1:    Expected closing tag to match indentation of opening                                                               react/jsx-closing-tag-location
+  Line 81:1:    Expected indentation of 4 space characters but found 0                                                             react/jsx-indent
+  Line 81:8:    Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 82:19:   A space is required after '{'                                                                                      object-curly-spacing
+  Line 82:20:   Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 82:20:   Strings must use singlequote                                                                                       quotes
+  Line 82:29:   Missing space before value for key 'border'                                                                        key-spacing
+  Line 82:29:   Strings must use singlequote                                                                                       quotes
+  Line 82:48:   Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 82:48:   Strings must use singlequote                                                                                       quotes
+  Line 82:58:   Missing space before value for key 'padding'                                                                       key-spacing
+  Line 82:58:   Strings must use singlequote                                                                                       quotes
+  Line 82:67:   Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 82:67:   Strings must use singlequote                                                                                       quotes
+  Line 82:82:   Missing space before value for key 'borderRadius'                                                                  key-spacing
+  Line 82:90:   Unnecessarily quoted property 'background' found                                                                   quote-props
+  Line 82:90:   Strings must use singlequote                                                                                       quotes
+  Line 82:103:  Missing space before value for key 'background'                                                                    key-spacing
+  Line 82:103:  Strings must use singlequote                                                                                       quotes
+  Line 82:112:  A space is required before '}'                                                                                     object-curly-spacing
+  Line 83:7:    Expected indentation of 8 space characters but found 6                                                             react/jsx-indent
+  Line 84:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 85:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 86:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 87:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 88:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7)                   react/jsx-closing-bracket-location
+  Line 90:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 92:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 93:4:    Missing semicolon                                                                                                  semi
+  Line 94:2:    Missing semicolon                                                                                                  semi
+  Line 96:24:   Newline required at end of file but not found                                                                      eol-last
+  Line 96:24:   Missing semicolon                                                                                                  semi
+
+src/pages/Users.jsx
+  Line 1:26:    Missing semicolon                                                                                                  semi
+  Line 2:10:    'Link' is defined but never used                                                                                   no-unused-vars
+  Line 2:16:    'useNavigate' is defined but never used                                                                            no-unused-vars
+  Line 2:35:    Strings must use singlequote                                                                                       quotes
+  Line 3:1:     `./Domainadd` import should occur after import of `react-data-table-component-extensions`                          import/order
+  Line 3:8:     'Domainadd' is defined but never used                                                                              no-unused-vars
+  Line 3:36:    Missing semicolon                                                                                                  semi
+  Line 4:18:    There should be no space before ','                                                                                comma-spacing
+  Line 5:8:     'DataTableExtensions' is defined but never used                                                                    no-unused-vars
+  Line 8:21:    Block must not be padded by blank lines                                                                            padded-blocks
+  Line 20:1:    More than 1 blank line not allowed                                                                                 no-multiple-empty-lines
+  Line 25:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 29:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 33:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 37:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 46:27:   Missing trailing comma                                                                                             comma-dangle
+  Line 52:27:   Missing trailing comma                                                                                             comma-dangle
+  Line 56:1:    More than 1 blank line not allowed                                                                                 no-multiple-empty-lines
+  Line 58:4:    Expected indentation of 4 space characters but found 3                                                             react/jsx-indent
+  Line 59:7:    Expected indentation of 5 space characters but found 6                                                             react/jsx-indent
+  Line 59:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 59:32:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 60:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 60:9:    Strings must use singlequote                                                                                       quotes
+  Line 60:18:   Strings must use singlequote                                                                                       quotes
+  Line 61:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 61:9:    Strings must use singlequote                                                                                       quotes
+  Line 61:22:   Strings must use singlequote                                                                                       quotes
+  Line 62:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 62:9:    Strings must use singlequote                                                                                       quotes
+  Line 62:21:   Strings must use singlequote                                                                                       quotes
+  Line 63:9:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 63:9:    Strings must use singlequote                                                                                       quotes
+  Line 63:19:   Strings must use singlequote                                                                                       quotes
+  Line 64:9:    Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 64:9:    Strings must use singlequote                                                                                       quotes
+  Line 64:25:   Strings must use singlequote                                                                                       quotes
+  Line 64:30:   Missing trailing comma                                                                                             comma-dangle
+  Line 65:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 65:31:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 66:7:    Expected indentation of 5 space characters but found 6                                                             react/jsx-indent
+  Line 66:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 66:36:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 67:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 67:9:    Strings must use singlequote                                                                                       quotes
+  Line 67:18:   Strings must use singlequote                                                                                       quotes
+  Line 68:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 68:9:    Strings must use singlequote                                                                                       quotes
+  Line 68:22:   Strings must use singlequote                                                                                       quotes
+  Line 69:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 69:9:    Strings must use singlequote                                                                                       quotes
+  Line 69:21:   Strings must use singlequote                                                                                       quotes
+  Line 70:9:    Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 70:9:    Strings must use singlequote                                                                                       quotes
+  Line 70:24:   Missing space before value for key 'marginBottom'                                                                  key-spacing
+  Line 70:24:   Strings must use singlequote                                                                                       quotes
+  Line 70:31:   Missing trailing comma                                                                                             comma-dangle
+  Line 71:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 71:35:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 72:7:    Expected indentation of 5 space characters but found 6                                                             react/jsx-indent
+  Line 72:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 72:22:   Unexpected usage of singlequote                                                                                    jsx-quotes
+  Line 72:34:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 73:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 73:9:    Strings must use singlequote                                                                                       quotes
+  Line 73:18:   Strings must use singlequote                                                                                       quotes
+  Line 74:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 74:9:    Strings must use singlequote                                                                                       quotes
+  Line 74:22:   Strings must use singlequote                                                                                       quotes
+  Line 75:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 75:9:    Strings must use singlequote                                                                                       quotes
+  Line 75:21:   Strings must use singlequote                                                                                       quotes
+  Line 76:9:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 76:9:    Strings must use singlequote                                                                                       quotes
+  Line 76:18:   Missing space before value for key 'margin'                                                                        key-spacing
+  Line 76:18:   Strings must use singlequote                                                                                       quotes
+  Line 76:25:   Missing trailing comma                                                                                             comma-dangle
+  Line 77:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 77:15:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 79:1:    Expected indentation of 5 space characters but found 0                                                             react/jsx-indent
+  Line 79:15:   Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 79:15:   Strings must use singlequote                                                                                       quotes
+  Line 79:25:   Strings must use singlequote                                                                                       quotes
+  Line 79:44:   Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 79:44:   Strings must use singlequote                                                                                       quotes
+  Line 79:55:   Strings must use singlequote                                                                                       quotes
+  Line 79:64:   Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 79:64:   Strings must use singlequote                                                                                       quotes
+  Line 79:88:   Unnecessarily quoted property 'background' found                                                                   quote-props
+  Line 79:88:   Strings must use singlequote                                                                                       quotes
+  Line 79:102:  Strings must use singlequote                                                                                       quotes
+  Line 80:9:    Expected indentation of 2 space characters but found 8                                                             react/jsx-indent
+  Line 86:7:    Expected closing tag to match indentation of opening                                                               react/jsx-closing-tag-location
+  Line 86:7:    Expected indentation of 0 space characters but found 6                                                             react/jsx-indent
+  Line 87:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 89:4:    Missing semicolon                                                                                                  semi
+  Line 90:2:    Missing semicolon                                                                                                  semi
+  Line 92:21:   Newline required at end of file but not found                                                                      eol-last
+  Line 92:21:   Missing semicolon                                                                                                  semi
+
+src/pages/Workshopadd.jsx
+  Line 1:26:   Missing semicolon                                                                                      semi
+  Line 2:27:   Missing semicolon                                                                                      semi
+  Line 4:27:   Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 6:20:   Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 7:22:   Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 8:9:    A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 12:30:  Strings must use singlequote                                                                           quotes
+  Line 19:28:  Strings must use singlequote                                                                           quotes
+  Line 19:52:  Strings must use singlequote                                                                           quotes
+  Line 19:72:  Strings must use singlequote                                                                           quotes
+  Line 21:9:   Empty components are self-closing                                                                      react/self-closing-comp
+  Line 27:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 28:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 30:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 31:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 33:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 34:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 38:34:  Strings must use singlequote                                                                           quotes
+  Line 43:13:  Expected closing tag to match indentation of opening                                                   react/jsx-closing-tag-location
+  Line 49:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 50:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 52:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 53:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 55:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 56:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 60:34:  Strings must use singlequote                                                                           quotes
+  Line 65:13:  Expected closing tag to match indentation of opening                                                   react/jsx-closing-tag-location
+  Line 66:1:   Trailing spaces not allowed                                                                            no-trailing-spaces
+  Line 70:11:  Empty components are self-closing                                                                      react/self-closing-comp
+  Line 70:66:  Strings must use singlequote                                                                           quotes
+  Line 72:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 73:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 75:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 76:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 78:28:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 79:15:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+  Line 84:39:  Unexpected usage of singlequote                                                                        jsx-quotes
+  Line 86:4:   Missing semicolon                                                                                      semi
+  Line 87:2:   Missing semicolon                                                                                      semi
+  Line 89:27:  Newline required at end of file but not found                                                          eol-last
+  Line 89:27:  Missing semicolon                                                                                      semi
+
+src/pages/Workshops.jsx
+  Line 1:26:    Missing semicolon                                                                                                  semi
+  Line 2:16:    'useNavigate' is defined but never used                                                                            no-unused-vars
+  Line 2:35:    Strings must use singlequote                                                                                       quotes
+  Line 3:8:     'Workshopadd' is defined but never used                                                                            no-unused-vars
+  Line 3:25:    Useless path segments for "../pages/Workshopadd", should be "./Workshopadd"                                        import/no-useless-path-segments
+  Line 3:47:    Missing semicolon                                                                                                  semi
+  Line 4:1:     `react-data-table-component` import should occur before import of `../pages/Workshopadd`                           import/order
+  Line 4:18:    There should be no space before ','                                                                                comma-spacing
+  Line 6:25:    Block must not be padded by blank lines                                                                            padded-blocks
+  Line 17:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 18:1:    More than 1 blank line not allowed                                                                                 no-multiple-empty-lines
+  Line 22:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 23:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 25:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 26:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 26:19:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 29:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 30:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 30:19:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 34:17:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 35:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 36:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 37:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 38:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 38:15:   Expected parentheses around arrow function argument                                                                arrow-parens
+  Line 39:1:    Expected indentation of 4 spaces but found 0                                                                       indent
+  Line 40:1:    Expected indentation of 2 spaces but found 0                                                                       indent
+  Line 42:1:    Expected indentation of 2 spaces but found 0                                                                       indent
+  Line 43:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 48:30:   Missing trailing comma                                                                                             comma-dangle
+  Line 49:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 50:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 51:1:    Expected indentation of 4 spaces but found 2                                                                       indent
+  Line 52:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 53:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 54:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 55:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 56:1:    Expected indentation of 6 spaces but found 4                                                                       indent
+  Line 56:28:   Missing trailing comma                                                                                             comma-dangle
+  Line 57:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 58:1:    Expected indentation of 4 spaces but found 0                                                                       indent
+  Line 59:1:    Expected indentation of 2 spaces but found 0                                                                       indent
+  Line 59:2:    Missing semicolon                                                                                                  semi
+  Line 63:5:    Expected indentation of 6 space characters but found 4                                                             react/jsx-indent
+  Line 63:10:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 63:30:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 64:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 64:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 64:9:    Strings must use singlequote                                                                                       quotes
+  Line 64:18:   Strings must use singlequote                                                                                       quotes
+  Line 65:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 65:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 65:9:    Strings must use singlequote                                                                                       quotes
+  Line 65:22:   Strings must use singlequote                                                                                       quotes
+  Line 66:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 66:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 66:9:    Strings must use singlequote                                                                                       quotes
+  Line 66:21:   Strings must use singlequote                                                                                       quotes
+  Line 67:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 67:9:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 67:9:    Strings must use singlequote                                                                                       quotes
+  Line 67:19:   Strings must use singlequote                                                                                       quotes
+  Line 68:1:    Expected indentation of 6 spaces but found 8                                                                       indent
+  Line 68:9:    Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 68:9:    Strings must use singlequote                                                                                       quotes
+  Line 68:25:   Strings must use singlequote                                                                                       quotes
+  Line 68:30:   Missing trailing comma                                                                                             comma-dangle
+  Line 69:1:    Expected indentation of 4 spaces but found 6                                                                       indent
+  Line 69:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 5 on the next line)  react/jsx-closing-bracket-location
+  Line 69:31:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 70:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 70:36:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 71:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 71:9:    Strings must use singlequote                                                                                       quotes
+  Line 71:18:   Strings must use singlequote                                                                                       quotes
+  Line 72:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 72:9:    Strings must use singlequote                                                                                       quotes
+  Line 72:22:   Strings must use singlequote                                                                                       quotes
+  Line 73:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 73:9:    Strings must use singlequote                                                                                       quotes
+  Line 73:21:   Strings must use singlequote                                                                                       quotes
+  Line 74:9:    Unnecessarily quoted property 'marginBottom' found                                                                 quote-props
+  Line 74:9:    Strings must use singlequote                                                                                       quotes
+  Line 74:24:   Missing space before value for key 'marginBottom'                                                                  key-spacing
+  Line 74:24:   Strings must use singlequote                                                                                       quotes
+  Line 74:31:   Missing trailing comma                                                                                             comma-dangle
+  Line 75:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 75:35:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 76:12:   Property should be placed on a new line                                                                            react/jsx-first-prop-new-line
+  Line 76:22:   Unexpected usage of singlequote                                                                                    jsx-quotes
+  Line 76:34:   Prop `style` must be placed on a new line                                                                          react/jsx-max-props-per-line
+  Line 77:9:    Unnecessarily quoted property 'width' found                                                                        quote-props
+  Line 77:9:    Strings must use singlequote                                                                                       quotes
+  Line 77:18:   Strings must use singlequote                                                                                       quotes
+  Line 78:9:    Unnecessarily quoted property 'textAlign' found                                                                    quote-props
+  Line 78:9:    Strings must use singlequote                                                                                       quotes
+  Line 78:22:   Strings must use singlequote                                                                                       quotes
+  Line 79:9:    Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 79:9:    Strings must use singlequote                                                                                       quotes
+  Line 79:21:   Strings must use singlequote                                                                                       quotes
+  Line 80:9:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 80:9:    Strings must use singlequote                                                                                       quotes
+  Line 80:18:   Missing space before value for key 'margin'                                                                        key-spacing
+  Line 80:18:   Strings must use singlequote                                                                                       quotes
+  Line 80:25:   Missing trailing comma                                                                                             comma-dangle
+  Line 81:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 81:19:   Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 82:19:   A space is required after '{'                                                                                      object-curly-spacing
+  Line 82:20:   Unnecessarily quoted property 'fontSize' found                                                                     quote-props
+  Line 82:20:   Strings must use singlequote                                                                                       quotes
+  Line 82:32:   Strings must use singlequote                                                                                       quotes
+  Line 82:38:   A space is required after ','                                                                                      comma-spacing
+  Line 82:39:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 82:39:   Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 82:39:   Strings must use singlequote                                                                                       quotes
+  Line 82:48:   Missing space before value for key 'border'                                                                        key-spacing
+  Line 82:48:   Strings must use singlequote                                                                                       quotes
+  Line 82:66:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 82:66:   Unnecessarily quoted property 'display' found                                                                      quote-props
+  Line 82:66:   Strings must use singlequote                                                                                       quotes
+  Line 82:77:   Strings must use singlequote                                                                                       quotes
+  Line 83:1:    Expected indentation of 8 spaces but found 4                                                                       indent
+  Line 83:5:    Unnecessarily quoted property 'margin' found                                                                       quote-props
+  Line 83:5:    Strings must use singlequote                                                                                       quotes
+  Line 83:15:   Strings must use singlequote                                                                                       quotes
+  Line 83:27:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 83:27:   Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 83:27:   Strings must use singlequote                                                                                       quotes
+  Line 83:37:   Missing space before value for key 'padding'                                                                       key-spacing
+  Line 83:37:   Strings must use singlequote                                                                                       quotes
+  Line 83:42:   A space is required after ','                                                                                      comma-spacing
+  Line 83:43:   Object properties must go on a new line if they aren't all on the same line                                        object-property-newline
+  Line 83:43:   Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 83:43:   Strings must use singlequote                                                                                       quotes
+  Line 83:58:   Missing space before value for key 'borderRadius'                                                                  key-spacing
+  Line 83:58:   Strings must use singlequote                                                                                       quotes
+  Line 83:63:   A space is required before '}'                                                                                     object-curly-spacing
+  Line 83:65:   The closing bracket must be aligned with the line containing the opening tag (expected column 7 on the next line)  react/jsx-closing-bracket-location
+  Line 84:5:    Expected indentation of 6 space characters but found 4                                                             react/jsx-indent
+  Line 84:27:   Expected indentation of 6 space characters but found 9                                                             react/jsx-indent
+  Line 87:1:    Expected closing tag to match indentation of opening                                                               react/jsx-closing-tag-location
+  Line 87:1:    Expected indentation of 4 space characters but found 0                                                             react/jsx-indent
+  Line 87:8:    Closing tag of a multiline JSX expression must be on its own line                                                  react/jsx-closing-tag-location
+  Line 88:19:   A space is required after '{'                                                                                      object-curly-spacing
+  Line 88:20:   Unnecessarily quoted property 'border' found                                                                       quote-props
+  Line 88:20:   Strings must use singlequote                                                                                       quotes
+  Line 88:29:   Missing space before value for key 'border'                                                                        key-spacing
+  Line 88:29:   Strings must use singlequote                                                                                       quotes
+  Line 88:48:   Unnecessarily quoted property 'padding' found                                                                      quote-props
+  Line 88:48:   Strings must use singlequote                                                                                       quotes
+  Line 88:58:   Missing space before value for key 'padding'                                                                       key-spacing
+  Line 88:58:   Strings must use singlequote                                                                                       quotes
+  Line 88:67:   Unnecessarily quoted property 'borderRadius' found                                                                 quote-props
+  Line 88:67:   Strings must use singlequote                                                                                       quotes
+  Line 88:82:   Missing space before value for key 'borderRadius'                                                                  key-spacing
+  Line 88:90:   Unnecessarily quoted property 'background' found                                                                   quote-props
+  Line 88:90:   Strings must use singlequote                                                                                       quotes
+  Line 88:103:  Missing space before value for key 'background'                                                                    key-spacing
+  Line 88:103:  Strings must use singlequote                                                                                       quotes
+  Line 88:112:  A space is required before '}'                                                                                     object-curly-spacing
+  Line 89:7:    Expected indentation of 8 space characters but found 6                                                             react/jsx-indent
+  Line 90:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 91:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 92:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 93:13:   Expected indentation of 8 space characters but found 12                                                            react/jsx-indent-props
+  Line 94:9:    The closing bracket must be aligned with the line containing the opening tag (expected column 7)                   react/jsx-closing-bracket-location
+  Line 96:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 98:1:    Trailing spaces not allowed                                                                                        no-trailing-spaces
+  Line 99:4:    Missing semicolon                                                                                                  semi
+  Line 100:2:   Missing semicolon                                                                                                  semi
+  Line 102:25:  Newline required at end of file but not found                                                                      eol-last
+  Line 102:25:  Missing semicolon                                                                                                  semi
+
+Search for the keywords to learn more about each error.
+
+

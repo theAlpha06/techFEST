@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+  font-family: productSans;
+  src: url("./../public/fonts/product-sans/Product\ Sans\ Regular.ttf");
+}
+
+@font-face {
+  font-family: productSansBold;
+  src: url("./../public/fonts/product-sans/Product\ Sans\ Bold.ttf");
+}
+
+@font-face {
+  font-family: productSansBoldItalic;
+  src: url("./../public/fonts/product-sans/Product\ Sans\ Bold\ Italic.ttf");
+}
+
+@font-face {
+  font-family: productSansItalic;
+  src: url("./../public/fonts/product-sans/Product\ Sans\ Italic.ttf");
+}
+
+@font-face {
+  font-family: monumentExtended;
+  src: url("./../public/fonts/monumentextended/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: monumentExtendedBold;
+  src: url("./../public/fonts/monumentextended/MonumentExtended-Ultrabold.otf");
+}
+
+p{
+  font-family: "productSans";
+}
+
+button{
+  font-family: "productSansBold";
+}
+
+a{
+  font-family: "productSans";
+}
+
+h1{
+  font-family: "monumentExtended";
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #10620c;
+  border-radius: 25px;
+  transition: all 0.15s ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(157, 157, 154, 1);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

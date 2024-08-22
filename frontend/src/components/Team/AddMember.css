@@ -1,0 +1,98 @@
+
+  .Popup-son {
+    height:auto;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(153.24deg, #010101 1.31%, #01590f 146.81%);
+    /* backdrop-filter: blur(21px);
+    transform: translate(-50%, -50%); */
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .Popup-son h2 {
+    position: relative;
+    margin: 3vh auto;
+    text-align: center;
+  }
+  
+  .Popup-btn {
+    position: relative;
+    display: block;
+    float: right;
+    margin: 3vh 1vw 3vh 1vw;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(95.77deg, #00ff17 -23.95%, #2a5400 101.65%);
+  }
+  
+  
+  
+  .Popup-btn:hover {
+    cursor: pointer;
+  }
+  
+  .Popup-borderline {
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: auto;
+  }
+  
+  /* CSS for form */
+  
+  .Popup-formcss {
+    color: white;
+  }
+  
+  .Popup-formdiv {
+    margin: 3vh;
+    line-height: 4vh;
+  }
+  
+  .Popup-forminput {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    word-spacing: 0.3vw;
+    font-size: 1.5vh;
+    /* line-height: 0; */
+    border: none;
+    outline: none;
+    border-color: transparent;
+    /* border: 1px; */
+  }
+  
+  .Popup-formheading {
+    word-spacing: 0.2vw;
+    font-size: 2vh;
+    line-height: 3vh;
+  }
+  
+  .Popup-formcontent {
+    word-spacing: 0.5vw;
+    font-size: 3vh;
+  }
+  
+  .Popup-formline {
+    /* line-height: 0; */
+    padding-top: 4vh;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid white;
+  }
+  
+  /* //midea query  */
+  
+    
+  @media only screen and (max-width: 780px) {
+    .Popup-son{
+      min-width: 85vw;
+    }
+  }

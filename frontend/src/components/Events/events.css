@@ -1,0 +1,429 @@
+/* .background-of-EventsPage {
+    background-image: url(Eventbackground.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-of-EventsPage::before {
+    position: absolute;
+    content: "";
+    opacity: 0.8;
+    background-image: linear-gradient(to bottom right, rgb(0, 82, 0), rgb(0, 20, 0), black);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.eventContainer {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    align-self: auto;
+}
+
+.insideCntiner {
+    background-image: url(techFEST23kaT.webp); 
+     width: 70vw; 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.techFestTCont {
+    position: absolute;
+    margin-top: 11vw;
+}
+
+.techFestT {
+    width: 50vw;
+    height: auto;
+}
+
+.insideCntiner h1 {
+    z-index: 1;
+    color: rgb(0, 252, 0);
+    font-size: 10vw;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    letter-spacing: -4px;
+}
+
+.whiteLine {
+    width: 17vw;
+    background: linear-gradient(rgb(248, 244, 244), rgb(212, 202, 202));
+    height: 5px;
+    margin: 0 0 4vh 0;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#exploreEvents {
+    padding: 8px 25px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(71, 67, 67), black);
+    background: transparent; 
+    color: white;
+    border: 1px solid grey;
+    font-size: large;
+    margin-bottom: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.insideCntiner p {
+    width: 30vw;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.events {
+    width: 100%;
+    background: linear-gradient(to left, rgb(0, 45, 0), rgb(0, 20, 0), black);
+}
+
+.evnts {
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    margin-left: 10vw;
+}
+
+.eventsBackgroundBottom {
+    background: linear-gradient(to left, rgb(0, 45, 0), rgb(0, 20, 0), black);
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.eventBox {
+    margin: 2rem 1rem 7rem 1rem;
+    height: auto;
+    width: 80vw;
+    border: 1px solid rgb(35, 185, 35);
+    border-radius: 10px;
+    background-color: rgb(0, 35, 0);
+    background-color: rgb(53, 67, 48); 
+    opacity: 0.5; 
+    padding: 40px;
+    position: relative;
+    margin: 20px; 
+}
+
+.LeftOfBox {
+    width: 45%;
+    float: left;
+    color: white;
+}
+
+.evntDesc {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.LeftOfBox h1{
+    margin-bottom: 10px !important;
+}
+
+.RightOfBox {
+    width: 40%;
+    float: right;
+    bottom: 0px;
+    display: flex;
+    height: 43vh; 
+    color: white;
+    position: absolute; 
+}
+
+.objOfBox {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.boxImg {
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+#registerNow {
+    padding: 8px 20px;
+    background: linear-gradient(to right, rgb(47, 226, 47), rgb(8, 81, 8));
+    border-radius: 10px;
+    color: white;
+    margin: 15px 20px 7px 0 !important;
+    float: left;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid rgb(47, 226, 47);
+}
+
+#viewSchedule {
+    padding: 8px 23px;
+    background: linear-gradient(to right, rgb(90, 86, 86), rgb(30, 27, 27));
+    border-radius: 10px;
+    color: white;
+    float: left;
+    margin: 15px 25px 7px 0;
+    cursor: pointer;
+    border: 1px solid rgb(90, 86, 86);
+}
+
+.bg_bottom {
+    background: linear-gradient(rgb(0, 35, 0), rgb(0, 15, 0), black);
+    height: auto;
+    width: 100%;
+}
+
+.fac_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dummyImg {
+    margin: 5vw 0 1vw 0;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.dummyImg2 {
+    margin: 3vw 0 0 0;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.dmnCordintor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50vw !important;
+    height: auto;
+    flex-direction: row;
+    color: white;
+    margin: 3vw 0 6vw 0;
+}
+
+@media screen and (max-width: 1055px) {
+    .techFestTCont {
+        margin-top: 9vw;
+    }
+
+    .techFestT {
+        width: 70vw;
+        height: auto;
+    }
+
+    .insideCntiner h1 {
+        letter-spacing: 0;
+    }
+
+    .whiteLine {
+        width: 20vw;
+        margin: 0 0 2vh 0;
+    }
+
+    .evnts {
+        font-size: 7vw;
+    }
+    .boxImg {
+        width: 70%;
+    }
+    .dummyImg {
+        height: 20%;
+        width: 20%;
+    }
+    .dummyImg2 {
+        height: 44%;
+        width: 44%;
+    }
+    .dmnCordintor {
+        width: 70vw !important;
+    }
+}
+
+
+@media screen and (max-width: 777px) {
+    .background-of-EventsPage {
+        height: 65vh;
+    }
+
+    .eventContainer {
+        height: 60vh;
+    }
+
+    .techFestTCont {
+        margin-top: 7vw;
+    }
+
+    .techFestT {
+        width: 70vw;
+        height: auto;
+    }
+
+    .insideCntiner h1 {
+        letter-spacing: 0;
+    }
+
+    .insideCntiner p {
+        width: 40vw;
+    }
+
+    .LeftOfBox {
+        width: 50%;
+    }
+
+    .RightOfBox {
+        width: 45%;
+    }
+
+    .objOfBox {
+        font-size: 2vw;
+    }
+    .dummyImg {
+        height: 25%;
+        width: 25%;
+        margin: 4vh 0 1vh 0;
+    }
+    .dummyImg2 {
+        height: 50%;
+        width: 50%;
+    }
+    .dmnCordintor {
+        width: 75vw !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .techFestTCont {
+        margin-top: 0;
+    }
+
+    .techFestT {
+        width: 90vw;
+        height: auto;
+    }
+
+    .insideCntiner h1 {
+        font-size: 15vw;
+        margin-top: 2vw; 
+    }
+
+    .whiteLine {
+        width: 25vw;
+        height: 3px;
+    }
+
+    .insideCntiner p {
+        width: 60vw;
+    }
+
+    #exploreEvents {
+        font-size: medium;
+    }
+
+    .eventBox {
+        margin: 2rem 1rem 3rem 1rem;
+        padding: 25px 25px 25vw 25px !important;
+        width: 85%;
+        height: auto;
+    }
+
+    .RightOfBox {
+        width: 100%;
+        float: none;
+    }
+
+    .evntDesc p {
+        font-size: 14px;
+    }
+
+    .LeftOfBox {
+        width: 100%;
+        float: none;
+    }
+
+    .objOfBox {
+        font-size: 2.6vw !important;
+        bottom: auto;
+        text-align: center;
+    }
+    .boxImg {
+        height: 30%;
+        width: 30%;
+    }
+    .dmnCordintor {
+        width: 85vw !important;
+        margin: 3vh 0 7vh 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .insideCntiner p {
+        width: 75vw;
+        font-size: 12px !important;
+    }
+
+    #exploreEvents {
+        padding: 7px 15px;
+    }
+
+    .evnts {
+        font-size: 8vw;
+    }
+
+    .background-of-EventsPage {
+        height: 50vh;
+    }
+
+    .eventContainer {
+        height: 45vh;
+    }
+    .objOfBox {
+        font-size: 2.7vw !important;
+    }
+
+}
+
+@media screen and (max-width: 456px) {
+    #viewSchedule {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .insideCntiner p {
+        width: auto;
+        text-align: center;
+        margin: 0 7px 0 7px;
+    }
+
+    #registerNow {
+        margin: 7px 25px 0 0;
+    }
+}  */

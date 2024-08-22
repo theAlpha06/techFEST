@@ -1,0 +1,266 @@
+.Mainlist-father {
+  backdrop-filter: blur(21px);
+  background: #16540f;
+  position: relative;
+  height: 32vh;
+  width: 30vw;
+}
+
+.Mainlist-son {
+  /* display: flex; */
+  /* display: block; */
+  /* flex-direction: column; */
+  justify-content: space-between;
+  background: linear-gradient(153.24deg, #010101 1.31%, #01590f 146.81%);
+  backdrop-filter: blur(21px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  height: fit-content;
+  /* min-width: 30%; */
+  width: 100%;
+  padding: 4vh 2vw;
+  color: white;
+}
+
+.Mainlist-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh 3vh 3vh 3vh;
+}
+
+.crossButton {
+  position: relative;
+  padding: 10px 10px;
+  left: 97%;
+  top: 0%;
+  font-size: large;
+  cursor: pointer;
+}
+
+.Mainlist-top2 {
+  width: 100%;
+}
+
+.Mainlist_select {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.Mainlist-top2:hover {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Mainlist_select option {
+  color: white;
+  padding: 0.5rem;
+}
+
+.Mainlist-button {
+  width: 50%;
+  margin-top: 1em;
+  margin-left: 25%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #3ccb10;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Mainlist-memberlist {
+  display: flex;
+  /* flex-wrap:unset; */
+  /* text-align: center; */
+  white-space: nowrap;
+  /* width: 100%; */
+  padding: 0 3vh;
+}
+
+.mainlist-teamName {
+  width: 60%;
+  padding: 1rem;
+}
+
+.Mainlist-myteamline {
+  margin: auto;
+  width: 55%;
+  height: 1px;
+  border-top: 1px solid white;
+}
+
+.Mainlist-addmemberimg {
+  /* margin-top: 5%; */
+  width: 10%;
+  height: 10%;
+  position: relative;
+  /* left: 85%; */
+}
+
+.Mainlist-buttoncircle {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  /* height: 20%; */
+  border: 1px solid;
+  /* width: 100%; */
+  /* padding-left: 1rem; */
+  background-color: transparent;
+}
+
+.addTEamDiv {
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-end; */
+  margin: 10px 20px;
+  text-align: right;
+}
+
+.Mainlist-forminput {
+  font-size: 100%;
+  line-height: 2rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border-color: transparent;
+}
+
+.Mainlist-contentheading {
+  font-size: 2vw;
+  line-height: 2.5rem;
+  left: 0px;
+  text-align: left;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.Mainlist-topheading {
+  text-align: left;
+}
+
+.Mainlist-line {
+  margin: 0 1rem;
+  padding: 0vw;
+  width: 92%;
+  height: 1px;
+  border-top: 1px solid white;
+  text-align: left;
+}
+
+.Mainlist-lstline {
+  margin: 0 2rem;
+  padding: 0vw;
+  width: 85.1%;
+  height: 1px;
+  border-top: 1px solid white;
+  text-align: left;
+}
+
+.Mainlist-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Mainlist-listname {
+  font-size: 120%;
+  width: 100%;
+  line-height: 2.5rem;
+  left: 0px;
+  text-align: left;
+  /* padding: 0 1rem; */
+  padding: 0.5rem 0 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.Mainlist-listid {
+  /* width: 100%; */
+  font-size: 120%;
+  line-height: 2.5rem;
+  left: 0px;
+  text-align: right;
+  padding: 0.5rem 2rem 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.Mainlist-listelements {
+  display: flex;
+  flex-direction: column;
+}
+
+/* midea query for mobile view  */
+@media only screen and (max-width: 1025px) {
+  .Mainlist-father {
+    width: 35vw;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .Mainlist-father {
+    width: 45vw;
+  }
+  .Mainlist-son {
+    min-width: 90%;
+    min-height: 60%;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .Mainlist-father {
+    width: 55vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Mainlist-father {
+    width: 65vw;
+  }
+  .Mainlist-son {
+    min-width: 90%;
+    min-height: 60%;
+  }
+  .Mainlist-myteamline {
+    width: 40%;
+  }
+  .Mainlist-forminput {
+    width: 80%;
+    font-size: 120%;
+    line-height: 2rem;
+  }
+
+  .Mainlist-contentheading {
+    line-height: 2rem;
+    font-size: 130%;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Mainlist-father {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Mainlist-father {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Mainlist-father {
+    width: 85vw;
+  }
+}

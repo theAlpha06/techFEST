@@ -1,0 +1,45 @@
+img{
+    border-radius: 10px;
+}
+.containerSidebar{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.sidebarItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
+.item{
+    color:  black;
+    /* border-bottom: 2px solid red;
+    border-radius: 5px; */
+}
+
+.item:hover{
+    color: black;
+    border-bottom: 2px solid black;
+  
+}
+
+.logOut{
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.3em;
+}
+
+.logOut:hover{
+    color: white;
+    border-bottom: white;
+}

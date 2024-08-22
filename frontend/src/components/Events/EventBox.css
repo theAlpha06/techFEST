@@ -1,0 +1,291 @@
+.eventBox {
+    margin: 2rem 1rem 7rem 1rem;
+    height: auto;
+    width: 80vw;
+    border: 1px solid rgb(35, 185, 35);
+    border-radius: 10px;
+    background-color: rgb(0, 35, 0);
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eventBoxSingle {
+    margin: 2rem 1rem 7rem 1rem;
+    height: auto;
+    width: 80vw;
+    border: 1px solid rgb(35, 185, 35);
+    border-radius: 10px;
+    /* background-color: rgb(0, 35, 0); */
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LeftOfEventBox {
+    width: 60%;
+    /* float: left; */
+    color: white;
+}
+
+.evntDesc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.LeftOfEventBox h1 {
+    font-family: "productSansBold";
+    margin-bottom: 10px;
+}
+
+.evntDesc h2{
+    font-family: "productSansBold";
+    margin: 6px 0;
+}
+
+.RightOfEventBox {
+    width: 40%;
+    /* float: right;
+    bottom: 0px; */
+    color: white;
+}
+
+.objOfEventBox {
+    /* position: absolute; */
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.boxImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boxImgSingle {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.boxImgDouble {
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+}
+.event__coordinator {
+    text-align: center;
+}
+
+.event__coordinator span{
+    font-family: "productSansBold";
+}
+
+.registerNowEvent {
+    padding: 8px 20px;
+    background: linear-gradient(to right, rgb(47, 226, 47), rgb(8, 81, 8));
+    border-radius: 10px;
+    color: white;
+    margin: 15px 20px 7px 0;
+    float: left;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid rgb(47, 226, 47);
+}
+.registerNowEvent_closed {
+    padding: 8px 20px;
+    background: linear-gradient(to right, rgb(226, 47, 47), rgb(81, 8, 8));
+    border-radius: 10px;
+    color: white;
+    margin: 15px 20px 7px 0;
+    float: left;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid rgb(226, 47, 47);
+}
+
+.problemStat {
+    padding: 8px 23px;
+    background: linear-gradient(to right, rgb(90, 86, 86), rgb(30, 27, 27));
+    border-radius: 10px;
+    color: white;
+    margin: 15px 25px 7px 0;
+    float: left;
+    cursor: pointer;
+    border: 1px solid rgb(90, 86, 86);
+}
+
+@media screen and (max-width: 1055px) {
+    .eventBox{
+        width: 85vw !important;
+    }
+    .eventBoxSingle {
+        width: 85vw;
+    }
+    /* .boxImgSingle {
+        width: 30%;
+    }
+    .boxImgDouble {
+        width: 50%;
+    } */
+}
+
+/* @media screen and (max-width: 935px) {
+    .problemStat{
+        margin: 5px 25px 7px 0;
+    }
+} */
+
+@media screen and (max-width: 888px) {
+    .LeftOfBox {
+        width: 50%;
+    }
+
+    .eventDesc{
+        font-size: 1rem;
+    }
+
+    /* .problemStat{
+        margin: 5px 25px 7px 0;
+    } */
+
+    .RightOfEventBox {
+        width: 45%;
+        /* float: left; */
+    }
+
+    .objOfEventBox {
+        font-size: 2vw;
+    }
+    .boxImgSingle {
+        width: 125px;
+        height: 125px;
+    }
+    .boxImgDouble {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .eventBox {
+        margin: 2rem 1rem 2vh 1rem;
+        padding: 25px 25px 25px 25px;
+        width: 85%;
+        height: auto;
+        flex-direction: column;
+    }
+    .eventBoxSingle {
+        margin: 2rem 1rem 7vh 1rem;
+        padding: 25px 25px 25px 25px;
+        width: 85%;
+        height: auto;
+        flex-direction: column;
+    }
+    .RightOfEventBox {
+        width: 100%;
+        /* float: none; */
+    }
+
+    .evntDesc p {
+        font-size: 14px;
+    }
+
+    .LeftOfEventBox {
+        width: 100%;
+        /* float: none; */
+    }
+
+    .objOfEventBox {
+        font-size: 2.6vw;
+        text-align: center;
+        bottom: 10px;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .problemStat{
+        margin: 15px 25px 7px 0;
+    }
+    .boxImage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 3vw;
+        gap: 1em;
+    }
+    /* .boxImgSingle {
+        height: 15%;
+        width: 20%;
+    }
+    .boxImgDouble {
+        height: 20%;
+        width: 20%;
+    } */
+    .event__coordinator {
+        text-align: left;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* .eventBox {
+        padding: 25px 25px 48vw 25px;
+    }
+    .eventBoxSingle {
+        padding: 25px 25px 29vw 25px;
+    } */
+    .objOfEventBox {
+        font-size: 2.7vw;
+    }
+    .boxImgSingle {
+        width: 100px;
+        height: 100px;
+    }
+    /* .boxImgDouble {
+        width: 22%;
+    } */
+}
+
+@media screen and (max-width: 456px) {
+    /* .eventBox {
+        padding: 25px 25px 50vw 25px;
+    } */
+    .problemStat {
+        margin-top: 8px;
+    }
+    /* .boxImgSingle {
+        width: 30%;
+    }
+    .boxImgDouble {
+        width: 25%;
+    } */
+}
+
+@media screen and (max-width: 445px) {
+    .problemStat{
+        margin: 5px 25px 7px 0;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .registerNowEvent {
+        margin: 7px 25px 0 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .boxImgSingle {
+        width: 90px;
+        height: 90px;
+    }
+}

@@ -1,0 +1,71 @@
+.eventAdd{
+    margin: 2em;
+}
+.eventHeader{
+    width: auto;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em;
+    margin-bottom: 1em;
+}
+input{
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+textarea{
+    border: 2px solid green;
+    margin-top: 0.5em;
+}
+
+div{
+    margin-bottom: 1.5em;
+}
+
+.containerEventAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.containerEventAdd2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.submit-btn{
+    width: 8%;
+    display: block;
+  margin-left: auto;
+  margin-right: 5em;
+  border: 0.1em solid black;
+  padding: 0.3em;
+  border-radius: 10%;
+}
+
+.submit-btn:hover{
+    background-color: rgb(53, 197, 53);
+}
+
+.eventAddBox{
+    border: 2px solid green;
+    padding: 0.7em;
+    border-radius: 10px;
+}
+
+.container-head-EventAdd{
+    font-size: 1.5em;
+    margin: 0.2em;
+}
+
+.eventAddItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eventAddItems label{
+    margin-bottom: 15px;
+}

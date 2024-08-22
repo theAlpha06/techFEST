@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      body {
+        color: white;
+        background: #082d0b;
+        background: -webkit-radial-gradient(center, #082d0b, #010101);
+        background: -moz-radial-gradient(center, #082d0b, #010101);
+        background: radial-gradient(ellipse at center, #082d0b, #010101);
+        height: 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .response__title {
+        font-size: 1.5em;
+        margin: 0 0 0.5em 0;
+      }
+      .response__message {
+        font-size: 0.8em;
+      }
+      .response__bg {
+        position: absolute;
+        opacity: 0.15;
+        width: 45vw;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: -1;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+      .response__button {
+        font-size: 1em;
+      }
+
+      .response__button {
+        margin: 0.7em 0;
+        font-size: 1em;
+      }
+      .response__button > button {
+        padding: 0.5em 2em;
+        margin-right: 12px;
+        border-radius: 7px;
+        background: linear-gradient(to right, green, rgb(17, 39, 7));
+        border: none;
+        color: #fff;
+        cursor: pointer;
+      }
+      @media (max-width: 700px) {
+        .response__bg {
+          width: 60vw;
+        }
+        body {
+          font-size: 0.8em;
+        }
+      }
+
+      @media (max-width: 450px) {
+        .response__bg {
+          width: 70vw;
+        }
+        body {
+          font-size: 0.7em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img
+        src="/tf23.webp"
+        alt="techFestSLIET'23 logo"
+        class="response__bg"
+      />
+    </div>
+    <div class="response__content">
+      <h1 class="response__title"><%= title %></h1>
+      <p class="response_message"><%= message %></p>
+    </div>
+  </body>
+</html>

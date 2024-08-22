@@ -1,0 +1,223 @@
+
+  .container {
+      
+      
+    /* height: 100vh; */
+    background: linear-gradient(135deg, rgba(5, 79, 17, 0.99) 9%, rgba(0, 0, 0, 1) 50%, rgb(5, 62, 15) 93%);
+    height: 100vh;
+    z-index: 0;
+  }
+
+  .feedbacktfimage{
+    top: -2rem;
+    background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: 64%;
+    /* opacity: 100%; */
+      /* opacity: 40%; */
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background-image: url(./feedback-page-images/aaan.png);
+  }
+
+  .feedbackp{
+    font-size: 3rem;
+  }
+
+  .feedbackform{
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    opacity: 1;
+    top: 2rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    position: relative;
+    height: 100vh;
+  }
+
+  .feedbackinput1{
+    
+    background-color: transparent;
+    border: none;
+    outline:none;
+    color: white;
+    top:-2rem;
+    left: -1rem;
+    position: relative;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+  }
+
+  .feedbackinput2{
+    width: 15rem;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    color: white;
+    top:-2rem;
+    
+    position: relative;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+  }
+
+  .feedbackinput3{
+    width: 15rem;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    color: white;
+    top: -6rem;
+    left: -8rem;
+    position: relative;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+  }
+
+  .frrdbackline1{
+    border-bottom: 1px solid white;
+    line-height: 0;
+    position: relative;
+    border: 38;
+    margin: 0;
+    width: 1rem;
+    width: 13rem;
+    top: -3.5rem;
+    left: 27rem;
+    padding: 0;
+  }
+
+  .frrdbackline2{
+    border-bottom: 1px solid white;
+    line-height: 0;
+    position: relative;
+    border: 38;
+    margin: 0;
+    width: 1rem;
+    width: 13rem;
+    top: -3.5rem;
+    /* left: 27rem; */
+    left: 41rem;
+    padding: 0;
+  }
+
+  .frrdbackline3{
+    border-bottom: 1px solid white;
+    line-height: 0;
+    position: relative;
+    width: 1rem;
+    /* border: 0; */
+    margin: 0;
+    top: 0;
+    padding: 0;
+  }
+
+  .feedbacktextarea{
+    padding:0 5px;
+    position: relative;
+    border-radius: 2px;
+    color: white;
+    font-size: 17px;
+    top: -5rem;
+    opacity: 50%;
+    background-color: black;
+    border: 1px solid white;
+  }
+
+  .feedbacksubmitbtn{
+    /* background-color: royalblue; */
+    background: linear-gradient(90deg, #00FF17 35%,#2A5400 
+    );
+    
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: -5rem;
+    left: 61.6%;
+    width: 9rem;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    height: 1.5rem;
+  }
+
+  @media (min-width: 465px) and (max-width: 800px) {
+    .feedbacktfimage{
+      background-size: 100%;
+    }
+
+    .feedbacktextarea{
+      top: -3rem;
+      height: 12rem;
+    width: 27rem;
+    }
+
+    .feedbacksubmitbtn{
+      top: -4rem;
+      right:18rem;
+    }
+
+    .feedbackinput1{
+      top: -4rem;
+    left: 8rem;
+    }
+
+    .feedbackinput2{
+      top: -1rem;
+      left: -6rem;
+    }
+
+    .feedbackinput3{
+      top: -5rem;
+      left: 1rem;
+    }
+
+  }
+
+  @media (max-width: 464px) {
+
+    .container{
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .feedbacktfimage{
+      background-size: 100%;
+      
+    }
+
+    .feedbackinput2{
+      top:-5rem;
+      left: -1rem;
+    }
+
+    .feedbackinput1{
+      top:-1rem;
+      left: -1rem;
+    }
+
+    .feedbackinput3{
+      top:-9rem;
+      left: -1rem;
+    }
+
+    .feedbacktextarea{
+      margin: 0 1rem;
+      top: -8rem;
+      width: 20rem;
+    }
+
+    .feedbacksubmitbtn{
+      top: -8rem;
+      left: 56%;
+    }
+  }
+  
+  
